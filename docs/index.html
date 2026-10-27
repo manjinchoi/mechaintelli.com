@@ -1,0 +1,1138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>㈜메카인텔리 MECHA INTELLI | 2차전지·반도체·디스플레이 자동화 설비</title>
+<meta name="description" content="㈜메카인텔리는 2차전지·반도체·디스플레이 및 정밀 자동화 설비를 설비 기획부터 정밀 설계, 제작, 설치·시운전, 양산 안정화까지 일괄 수행하는 천안 소재 자동화 설비 전문 기업입니다.">
+<meta name="keywords" content="메카인텔리, MECHA INTELLI, 자동화 설비, 2차전지 설비, 디스플레이 본딩, COF 본딩, FOF 본딩, 롤 라미네이션, BMA 조립라인, IC 트레이 포장, 천안">
+<link rel="canonical" href="https://mechaintelli.com/">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="㈜메카인텔리">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="㈜메카인텔리 | 2차전지·반도체·디스플레이 자동화 설비">
+<meta property="og:description" content="㈜메카인텔리는 2차전지·반도체·디스플레이 및 정밀 자동화 설비를 설비 기획부터 정밀 설계, 제작, 설치·시운전, 양산 안정화까지 일괄 수행하는 천안 소재 자동화 설비 전문 기업입니다.">
+<meta property="og:url" content="https://mechaintelli.com/">
+<meta property="og:image" content="https://mechaintelli.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "㈜메카인텔리", "alternateName": "MECHA INTELLI", "url": "https://mechaintelli.com/", "logo": "https://mechaintelli.com/assets/logo-full.png", "foundingDate": "2024-05-09", "address": {"@type": "PostalAddress", "streetAddress": "입장면 도림길 26-24", "addressLocality": "천안시 서북구", "addressRegion": "충청남도", "addressCountry": "KR"}, "numberOfEmployees": {"@type": "QuantitativeValue", "value": 20}, "telephone": "+82-70-7507-5112", "email": "ceo@mechaintelli.com"}</script>
+<style>
+:root{
+  /* Layout: white spec-sheet cover (copy | in-line bonding render annotated with drawing balloons + parts list,
+     as on the brochure's own white slide) -> alternating white / light-steel bands: about + organisation
+     -> filterable equipment line-up (render wells, to-scale floor plans, spec dialog) -> precision (tolerance
+     zones on one ±100 µm scale) -> one-stop process -> references -> facilities -> contact -> navy footer.
+     One light look by client choice (the logo is drawn for white); navy + cyan rule from the profile deck. */
+  --paper:#F3F6F9;
+  --sheet:#FFFFFF;
+  --ink:#0F1B2B;
+  --ink-2:#48596E;
+  --ink-3:#6B7B90;
+  --line:#D8E0E9;
+  --line-2:#B4C1CF;
+  --accent:#08769A;
+  --accent-soft:#E0F2F8;
+  --cyan:#17B4DA;
+  --well:#EDF1F5;
+  --well-grid:rgba(13,32,56,.06);
+  --grid:rgba(13,32,56,.055);
+  --navy:#0D2038;
+  --navy-2:#132A48;
+  --navy-3:#09172A;
+  --navy-line:rgba(150,180,215,.2);
+  --on-navy-2:#A9BCD3;
+  --todo:#A86300;
+  --scrim:rgba(6,16,30,.62);
+  --shadow:0 1px 2px rgba(13,32,56,.06),0 14px 34px -18px rgba(13,32,56,.32);
+  --f-kr:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
+  --f-disp:"Archivo","IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"IBM Plex Mono","IBM Plex Sans KR",ui-monospace,Consolas,monospace;
+  --fs-h1:clamp(2rem,1.2rem + 2.6vw,3.3rem);
+  --fs-h2:clamp(1.6rem,1.15rem + 1.5vw,2.35rem);
+  --bar-h:64px;
+  color-scheme:light;
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--bar-h) + env(safe-area-inset-top,0px) + 12px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-kr);font-size:1rem;line-height:1.75;word-break:keep-all;overflow-wrap:break-word;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--sheet)}
+img{display:block;max-width:100%;height:auto}
+[hidden]{display:none!important}
+h1,h2,h3,p,figure,dl,dd{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1280px;margin-inline:auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+@media (min-width:768px){.wrap{padding-left:max(40px,env(safe-area-inset-left,0px));padding-right:max(40px,env(safe-area-inset-right,0px))}}
+.skip{position:absolute;left:-9999px;top:8px;z-index:60;padding:8px 14px;background:var(--navy);color:#fff;font-weight:700;border-radius:3px}
+.skip:focus{left:max(16px,env(safe-area-inset-left,0px))}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- header ---------- */
+.hdr{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(255,255,255,.96);-webkit-backdrop-filter:saturate(160%) blur(10px);backdrop-filter:saturate(160%) blur(10px);color:var(--ink);border-bottom:3px solid var(--cyan)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:var(--bar-h)}
+.brand{display:flex;align-items:center;gap:14px;min-width:0;text-decoration:none}
+.brand img{flex:none;height:40px;width:auto}
+.brand-ko{padding-left:14px;border-left:1px solid var(--line);font-size:.8125rem;font-weight:600;color:var(--ink-2);white-space:nowrap}
+@media (max-width:420px){.brand-ko{display:none}}
+.nav{display:none}
+.nav a{position:relative;padding:8px 0;font-size:.9375rem;font-weight:500;color:var(--ink-2);text-decoration:none;transition:color .15s}
+.nav a:hover{color:var(--ink)}
+.nav a:not(.cta)::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--cyan);transform:scaleX(0);transform-origin:left center;transition:transform .2s ease}
+.nav a:not(.cta):hover::after{transform:scaleX(1)}
+.nav .cta{display:inline-flex;align-items:center;min-height:40px;padding:0 18px;border-radius:3px;background:var(--navy);color:#fff;font-weight:700;transition:background-color .15s}
+.nav .cta:hover{background:var(--accent);color:#fff}
+.menu-btn{display:inline-flex;align-items:center;gap:9px;min-height:40px;padding:0 13px;font-size:.875rem;font-weight:600;color:var(--ink);background:transparent;border:1px solid var(--line-2);border-radius:3px;cursor:pointer}
+.bars{position:relative;width:16px;height:11px;border-top:1.5px solid currentColor;border-bottom:1.5px solid currentColor}
+.bars::after{content:"";position:absolute;left:0;right:0;top:3.25px;border-top:1.5px solid currentColor}
+.mnav{background:var(--sheet);border-top:1px solid var(--line)}
+.mnav .wrap{display:grid;padding-block:4px 16px}
+.mnav a{display:block;padding:14px 0;color:var(--ink);font-weight:600;text-decoration:none;border-bottom:1px solid var(--line)}
+.mnav a:last-child{border-bottom:0;color:var(--accent)}
+@media (min-width:1024px){.nav{display:flex;align-items:center;gap:30px}.menu-btn,.mnav{display:none}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;background:var(--sheet);color:var(--ink);border-bottom:1px solid var(--line)}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:40px 40px;-webkit-mask-image:radial-gradient(75% 85% at 72% 50%,#000 15%,transparent 80%);mask-image:radial-gradient(75% 85% at 72% 50%,#000 15%,transparent 80%)}
+.hero-in{position:relative;display:grid;gap:44px;padding-block:clamp(44px,6vw,84px) clamp(52px,6vw,92px)}
+@media (min-width:1180px){.hero-in{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:40px;align-items:center}}
+.hero-copy{min-width:0}
+.kicker{display:flex;align-items:center;gap:12px;font-family:var(--f-disp);font-stretch:118%;font-size:.75rem;font-weight:700;letter-spacing:.16em;color:var(--accent)}
+.kicker::before{content:"";flex:none;width:24px;height:2px;background:var(--cyan)}
+.hero h1{margin-top:20px;font-size:var(--fs-h1);font-weight:700;line-height:1.27;letter-spacing:-.03em;color:var(--ink)}
+.hero h1 span{display:block}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.tagline{margin-top:16px;font-family:var(--f-disp);font-stretch:112%;font-size:clamp(.95rem,.85rem + .35vw,1.125rem);font-weight:600;line-height:1.5;letter-spacing:.01em;color:var(--ink-2)}
+.tagline span{display:block}
+.lead{margin-top:20px;max-width:34em;font-size:1.0625rem;line-height:1.85;color:var(--ink-2)}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border:1px solid transparent;border-radius:3px;font-size:1rem;font-weight:700;text-decoration:none;transition:background-color .18s,border-color .18s,color .18s}
+.btn svg{width:16px;height:16px}
+.btn-primary{background:var(--navy);color:#fff}
+.btn-primary:hover{background:var(--accent)}
+.btn-line{border-color:var(--line-2);color:var(--ink);font-weight:600;background:var(--sheet)}
+.btn-line:hover{border-color:var(--ink)}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin-top:40px;border-top:1px solid var(--line)}
+.facts>div{display:grid;gap:2px;align-content:start;min-width:0;padding:14px 12px 14px 0;border-bottom:1px solid var(--line)}
+.facts>div:nth-child(even){padding-left:16px;border-left:1px solid var(--line)}
+.facts dt{font-family:var(--f-disp);font-stretch:115%;font-size:.6875rem;font-weight:600;letter-spacing:.14em;color:var(--ink-3)}
+.facts dd{font-size:.9375rem;font-weight:600;color:var(--ink)}
+.facts dd b{margin-right:2px;font-family:var(--f-disp);font-stretch:106%;font-size:1.5rem;font-weight:700;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+@media (min-width:640px) and (max-width:1179px){.facts{grid-template-columns:repeat(4,minmax(0,1fr))}.facts>div{border-bottom:0}.facts>div+div{padding-left:16px;border-left:1px solid var(--line)}}
+
+/* annotated render */
+.fig{display:grid;gap:14px;min-width:0}
+.stage{position:relative;width:100%;max-width:100%;aspect-ratio:1142/794}
+.stage>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.leaders{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.leaders line{stroke:var(--accent);stroke-width:1;stroke-opacity:.55;vector-effect:non-scaling-stroke;transition:stroke-opacity .2s}
+.leaders line.on{stroke-opacity:1}
+.tgt,.bal{position:absolute;left:var(--x);top:var(--y);border-radius:50%}
+.tgt{width:7px;height:7px;margin:-3.5px 0 0 -3.5px;background:var(--accent);box-shadow:0 0 0 3px rgba(8,118,154,.18);pointer-events:none;transition:box-shadow .2s}
+.tgt.on{box-shadow:0 0 0 6px rgba(8,118,154,.26)}
+.bal{width:26px;height:26px;margin:-13px 0 0 -13px;display:grid;place-items:center;background:var(--sheet);border:1.5px solid var(--accent);color:var(--accent);font-family:var(--f-mono);font-size:.6875rem;font-weight:500;line-height:1;cursor:default;box-shadow:0 1px 3px rgba(13,32,56,.12);transition:background-color .2s,color .2s,transform .2s}
+.bal.on{background:var(--accent);color:#fff;transform:scale(1.15)}
+@media (max-width:600px){.bal{width:20px;height:20px;margin:-10px 0 0 -10px;font-size:.625rem}.tgt{width:5px;height:5px;margin:-2.5px 0 0 -2.5px}}
+.figcap{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px;font-family:var(--f-mono);font-size:.75rem;color:var(--ink-3)}
+.figcap b{font-family:var(--f-disp);font-stretch:115%;font-weight:700;letter-spacing:.12em;color:var(--ink)}
+.parts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 24px;padding-top:12px;border-top:1px solid var(--line)}
+.parts h3{display:flex;align-items:center;gap:10px;margin-bottom:6px;font-family:var(--f-disp);font-stretch:115%;font-size:.6875rem;font-weight:700;letter-spacing:.14em;color:var(--accent)}
+.parts h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.parts li{display:flex;align-items:center;gap:10px;min-width:0;margin-inline:-6px;padding:3px 6px;border-radius:3px;font-family:var(--f-mono);font-size:.78rem;line-height:1.4;color:var(--ink-2);transition:background-color .2s,color .2s}
+.parts li i{flex:none;display:grid;place-items:center;width:20px;height:20px;border:1px solid var(--accent);border-radius:50%;font-size:.625rem;font-style:normal;color:var(--accent);background:var(--sheet)}
+.parts li.on{background:var(--accent-soft);color:var(--ink)}
+.parts li.on i{background:var(--accent);color:#fff}
+
+/* ---------- shared section parts ---------- */
+.band{padding-block:clamp(68px,9vw,124px)}
+.band-sheet{background:var(--sheet)}
+.eyebrow{display:flex;align-items:center;gap:12px;font-family:var(--f-disp);font-stretch:118%;font-size:.75rem;font-weight:700;letter-spacing:.16em;color:var(--accent)}
+.eyebrow::before{content:"";flex:none;width:24px;height:2px;background:currentColor}
+h2{margin-top:16px;font-size:var(--fs-h2);font-weight:700;line-height:1.32;letter-spacing:-.025em;text-wrap:balance}
+.sec-head{max-width:50rem;margin-bottom:clamp(36px,5vw,60px)}
+.sec-lead{margin-top:16px;max-width:42em;font-size:1.0625rem;color:var(--ink-2)}
+.cap{font-family:var(--f-disp);font-stretch:115%;font-size:.6875rem;font-weight:700;letter-spacing:.14em;color:var(--ink-3)}
+.well{position:relative;background-color:var(--well);background-image:linear-gradient(var(--well-grid) 1px,transparent 1px),linear-gradient(90deg,var(--well-grid) 1px,transparent 1px);background-size:20px 20px;background-position:-1px -1px}
+
+/* ---------- about ---------- */
+.about-grid{display:grid;gap:44px}
+@media (min-width:1024px){.about-grid{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:72px}}
+.about-main{min-width:0}
+.about-text{display:grid;gap:16px;margin-top:28px;max-width:38em;font-size:1.0625rem;color:var(--ink-2)}
+.info-box{display:grid;gap:10px;align-content:start;min-width:0}
+.info{display:grid;border-top:2px solid var(--ink)}
+.info>div{display:grid;grid-template-columns:6.25rem minmax(0,1fr);gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.info dt{padding-top:2px;font-size:.8125rem;font-weight:600;color:var(--ink-3)}
+.info dd{min-width:0;font-size:.96875rem;line-height:1.6}
+.works{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:clamp(48px,6vw,72px)}
+@media (min-width:900px){.works{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.works li{position:relative;aspect-ratio:4/3;max-width:100%;overflow:hidden;border:1px solid var(--line);border-radius:3px}
+.works img{position:absolute;inset:7%;width:86%;height:86%;object-fit:contain;mix-blend-mode:multiply}
+.works-cap{margin-top:10px;font-size:.8125rem;color:var(--ink-3)}
+.values{display:grid;margin-top:clamp(48px,6vw,72px);border-top:2px solid var(--ink)}
+.values li{display:grid;gap:8px;align-content:start;padding:22px 0 26px;border-bottom:1px solid var(--line)}
+.values .k{font-family:var(--f-disp);font-stretch:118%;font-size:.6875rem;font-weight:700;letter-spacing:.16em;color:var(--accent)}
+.values h3{font-size:1.1875rem;font-weight:700;letter-spacing:-.01em}
+.values p{font-size:.9375rem;color:var(--ink-2)}
+@media (min-width:800px){.values{grid-template-columns:repeat(3,minmax(0,1fr))}.values li{padding:26px 28px 6px 0;border-bottom:0}.values li+li{padding-left:28px;border-left:1px solid var(--line)}}
+
+/* organisation */
+.org-wrap{display:grid;gap:28px;margin-top:clamp(56px,7vw,92px)}
+@media (min-width:1024px){.org-wrap{grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:72px;align-items:start}}
+.org-wrap h3{margin-top:14px;font-size:1.375rem;font-weight:700;letter-spacing:-.015em}
+.org-wrap>div>p{margin-top:12px;font-size:.96875rem;color:var(--ink-2)}
+.headcount{display:flex;align-items:baseline;gap:6px;margin-top:22px}
+.headcount b{font-family:var(--f-disp);font-stretch:106%;font-size:2.75rem;font-weight:700;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.headcount span{font-size:.9375rem;font-weight:600;color:var(--ink-2)}
+.org{display:grid;gap:28px;min-width:0;padding:clamp(20px,3vw,32px);background:var(--paper);border:1px solid var(--line);border-radius:4px}
+.org-top{position:relative;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
+.org-top::before{content:"";position:absolute;left:16%;right:16%;top:50%;border-top:1px solid var(--line-2)}
+.org-ceo{position:relative;z-index:1;padding:10px 26px;border-radius:3px;background:var(--navy);color:#fff;font-weight:700;text-align:center}
+.org-side{position:relative;z-index:1;justify-self:center;padding:6px 16px;border:1px solid var(--line-2);border-radius:3px;background:var(--paper);font-size:.875rem;font-weight:600;color:var(--ink-2)}
+.org-divs{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.org-divs li{position:relative;display:grid;gap:6px;align-content:start;min-width:0;padding:14px;border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:3px;background:var(--sheet)}
+.org-divs b{font-size:.9375rem;font-weight:700}
+.org-divs span{display:flex;align-items:center;gap:8px;font-size:.84375rem;color:var(--ink-2)}
+.org-divs span::before{content:"";flex:none;width:5px;height:5px;background:var(--line-2)}
+@media (min-width:640px){
+  .org-divs{grid-template-columns:repeat(4,minmax(0,1fr));padding-top:26px}
+  .org-divs::before{content:"";position:absolute;top:0;left:calc((100% - 36px) / 8);right:calc((100% - 36px) / 8);height:26px;border:1px solid var(--line-2);border-bottom:0}
+  .org-divs li:nth-child(2)::before,.org-divs li:nth-child(3)::before{content:"";position:absolute;left:50%;top:-29px;height:26px;border-left:1px solid var(--line-2)}
+  .org-top::after{content:"";position:absolute;left:50%;top:100%;height:28px;border-left:1px solid var(--line-2)}
+}
+
+/* ---------- line-up ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 14px;border:1px solid var(--line-2);border-radius:3px;background:var(--sheet);color:var(--ink);font-size:.875rem;font-weight:600;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
+.chip small{font-family:var(--f-mono);font-size:.75rem;font-weight:500;color:var(--ink-3)}
+.chip:hover{border-color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+.chip[aria-pressed="true"] small{color:inherit;opacity:.72}
+.result{margin-bottom:20px;font-family:var(--f-mono);font-size:.8125rem;color:var(--ink-3)}
+.eq-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:16px}
+.eq{display:flex;flex-direction:column;min-width:0;overflow:hidden;background:var(--sheet);border:1px solid var(--line);border-radius:4px;transition:border-color .2s,box-shadow .2s,transform .2s}
+.eq:hover{border-color:var(--line-2);box-shadow:var(--shadow);transform:translateY(-2px)}
+.eq-media{display:block;width:100%;max-width:100%;aspect-ratio:4/3;padding:0;overflow:hidden;border:0;border-bottom:1px solid var(--line);cursor:zoom-in}
+.eq-media img{position:absolute;inset:7%;width:86%;height:86%;object-fit:contain;mix-blend-mode:multiply;transition:transform .35s ease}
+.eq-media.photo img{inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:normal}
+.eq:hover .eq-media img{transform:scale(1.03)}
+.tag{position:absolute;left:10px;top:10px;padding:3px 7px 2px;border-radius:2px;background:var(--navy);color:#fff;font-family:var(--f-disp);font-stretch:115%;font-size:.625rem;font-weight:700;letter-spacing:.14em;line-height:1.5}
+.count{position:absolute;right:10px;top:10px;padding:2px 7px;border-radius:2px;background:rgba(255,255,255,.88);color:var(--ink);font-family:var(--f-mono);font-size:.6875rem;line-height:1.5}
+.eq-body{display:flex;flex-direction:column;gap:10px;flex:1;min-width:0;padding:18px 20px 20px}
+.eq-en{font-family:var(--f-disp);font-stretch:108%;font-size:.75rem;font-weight:600;letter-spacing:.05em;color:var(--accent)}
+.eq h3{margin-top:-4px;font-size:1.1875rem;font-weight:700;line-height:1.4;letter-spacing:-.01em}
+.eq-desc{font-size:.9375rem;line-height:1.7;color:var(--ink-2)}
+.eq-key{display:grid;margin-top:2px;border-top:1px solid var(--line)}
+.eq-key>div{display:grid;grid-template-columns:4.75rem minmax(0,1fr);gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:.8125rem;line-height:1.5}
+.eq-key dt{font-weight:600;color:var(--ink-3)}
+.eq-key dd{min-width:0;font-family:var(--f-mono);font-variant-numeric:tabular-nums;color:var(--ink)}
+.fp{display:grid;gap:6px;margin-top:4px}
+.fp svg{display:block;width:100%;max-width:240px;height:auto;overflow:visible}
+.fp-floor{fill:none;stroke:var(--line-2);stroke-width:.8}
+.fp-grid{stroke:var(--line);stroke-width:.7}
+.fp-m{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.3}
+.fp figcaption{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 10px;font-family:var(--f-mono);font-size:.71875rem;color:var(--ink-2)}
+.fp figcaption span:last-child{color:var(--ink-3)}
+.eq-more{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;margin-top:auto;padding:10px 0 0;border:0;background:none;color:var(--accent);font-size:.875rem;font-weight:700;cursor:pointer}
+.eq-more svg{width:14px;height:14px;transition:transform .2s}
+.eq-more:hover svg{transform:translateX(3px)}
+.note{margin-top:22px;font-size:.8125rem;color:var(--ink-3)}
+@media (prefers-reduced-motion:reduce){.eq,.eq:hover,.eq-media img,.eq:hover .eq-media img{transition:none;transform:none}}
+
+/* ---------- precision ---------- */
+.prec-grid{display:grid;gap:44px}
+@media (min-width:1080px){.prec-grid{grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:64px;align-items:start}}
+.tol{min-width:0}
+.tol-row,.tol-axis{display:grid;grid-template-columns:minmax(0,7.5rem) minmax(0,1fr) 5.25rem;gap:16px;align-items:center}
+.tol-row{padding:12px 0;border-bottom:1px solid var(--line)}
+.tol-row:first-child{border-top:1px solid var(--line)}
+.tol-name{min-width:0;font-size:.875rem;font-weight:600;line-height:1.35;color:var(--ink)}
+.tol-name small{display:block;margin-top:2px;font-family:var(--f-mono);font-size:.6875rem;font-weight:400;color:var(--ink-3)}
+.tol-track{position:relative;height:22px;border-left:1px solid var(--line-2);border-right:1px solid var(--line-2);background:linear-gradient(90deg,transparent calc(25% - .5px),var(--line) calc(25% - .5px),var(--line) calc(25% + .5px),transparent calc(25% + .5px),transparent calc(75% - .5px),var(--line) calc(75% - .5px),var(--line) calc(75% + .5px),transparent calc(75% + .5px))}
+.tol-track::before{content:"";position:absolute;left:50%;top:-5px;bottom:-5px;border-left:1px dashed var(--ink-3)}
+.tol-band{position:absolute;top:4px;bottom:4px;left:calc(50% - var(--t) * .5%);width:calc(var(--t) * 1%);min-width:3px;border-radius:1px;background:var(--cyan);box-shadow:inset 0 0 0 1px var(--accent)}
+.tol-val{font-family:var(--f-mono);font-size:.9375rem;font-weight:500;text-align:right;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tol-axis{padding-top:8px}
+.tol-axis ol{position:relative;height:16px;font-family:var(--f-mono);font-size:.6875rem;color:var(--ink-3)}
+.tol-axis li{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap}
+.tol-axis li:first-child{transform:none}
+.tol-axis li:last-child{transform:translateX(-100%)}
+.tol-axis .unit{font-family:var(--f-mono);font-size:.6875rem;color:var(--ink-3);text-align:right}
+.tol-note{margin-top:16px;font-size:.8125rem;color:var(--ink-3)}
+@media (max-width:560px){.tol-row,.tol-axis{grid-template-columns:minmax(0,5.6rem) minmax(0,1fr) 4.4rem;gap:10px}.tol-val{font-size:.8125rem}}
+.tact{display:grid;gap:4px;min-width:0;padding:24px 26px;border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:4px;background:var(--paper)}
+.tact h3{font-family:var(--f-disp);font-stretch:115%;font-size:.75rem;font-weight:700;letter-spacing:.16em;color:var(--accent)}
+.tact dl>div{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.tact dl>div:last-child{border-bottom:0}
+.tact dt{font-size:.875rem;font-weight:600;color:var(--ink)}
+.tact dt small{display:block;font-family:var(--f-mono);font-size:.71875rem;font-weight:400;color:var(--ink-3)}
+.tact dd{font-family:var(--f-disp);font-stretch:104%;font-size:1.875rem;font-weight:700;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
+.tact dd small{margin-left:3px;font-family:var(--f-kr);font-size:.875rem;font-weight:600;color:var(--ink-3)}
+
+/* ---------- process ---------- */
+.steps{display:grid}
+.step{position:relative;display:grid;gap:8px;align-content:start;padding:0 0 30px 34px;border-left:2px solid var(--line-2)}
+.step:last-child{padding-bottom:0;border-left-color:transparent}
+.step::before{content:"";position:absolute;left:-7px;top:3px;width:12px;height:12px;background:var(--paper);border:2px solid var(--accent)}
+.step .no{font-family:var(--f-disp);font-stretch:118%;font-size:.8125rem;font-weight:700;letter-spacing:.12em;line-height:1.5;color:var(--accent)}
+.step h3{font-size:1.125rem;font-weight:700;letter-spacing:-.01em}
+.step p{font-size:.9375rem;color:var(--ink-2)}
+@media (min-width:1024px){
+  .steps{grid-template-columns:repeat(6,minmax(0,1fr));gap:0 20px}
+  .step,.step:last-child{padding:30px 0 0;border-left:0;border-top:2px solid var(--line-2)}
+  .step::before{left:0;top:-7px}
+}
+
+/* ---------- references ---------- */
+.ref{width:100%;border-collapse:collapse;font-size:.9375rem}
+.ref th{padding:10px 16px 10px 0;border-bottom:2px solid var(--ink);text-align:left;font-size:.75rem;font-weight:700;letter-spacing:.04em;color:var(--ink-3);white-space:nowrap}
+.ref td{padding:16px 16px 16px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.ref td:first-child{font-weight:700}
+.ref td small{display:block;font-size:.8125rem;font-weight:500;color:var(--ink-3)}
+.ref .qty{padding-right:28px;font-family:var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+.ref th.qty{font-family:var(--f-kr)}
+.scope{display:flex;flex-wrap:wrap;gap:4px}
+.scope span{padding:2px 8px;border:1px solid var(--line-2);border-radius:2px;font-size:.75rem;font-weight:600;color:var(--ink-2);white-space:nowrap}
+@media (max-width:680px){
+  .ref thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .ref,.ref tbody,.ref tr,.ref td{display:block}
+  .ref tr{display:grid;gap:6px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .ref tr:first-child{border-top:2px solid var(--ink)}
+  .ref td{padding:0;border:0}
+  .ref td.qty{padding:0;text-align:left;font-size:.8125rem;color:var(--ink-2)}
+  .ref td.qty::before{content:"수량 "}
+}
+.layout{display:grid;gap:10px;margin-top:44px}
+.layout .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:4px}
+.layout .scroll img{width:100%;min-width:880px;mix-blend-mode:multiply}
+.layout figcaption{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;font-size:.8125rem;color:var(--ink-3)}
+
+/* ---------- facilities ---------- */
+.fac-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:28px;border-top:2px solid var(--ink)}
+.fac-stats>div{display:grid;gap:4px;align-content:start;min-width:0;padding:16px 12px 0 0}
+.fac-stats>div+div{padding-left:16px;border-left:1px solid var(--line)}
+.fac-stats dt{font-size:.8125rem;font-weight:600;color:var(--ink-3)}
+.fac-stats dd{font-family:var(--f-disp);font-stretch:106%;font-size:clamp(1.5rem,1.05rem + 1.5vw,2.25rem);font-weight:700;line-height:1.1;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.fac-stats dd small{margin-left:2px;font-family:var(--f-kr);font-size:.9375rem;font-weight:600}
+.fac-stats dd span{display:block;margin-top:6px;font-family:var(--f-mono);font-size:.75rem;font-weight:400;letter-spacing:0;color:var(--ink-3)}
+.fac-photos{display:grid;gap:16px}
+@media (min-width:860px){.fac-photos{grid-template-columns:minmax(0,1.47fr) minmax(0,1fr)}}
+.fac-photos figure{display:grid;gap:10px;min-width:0}
+.fac-photos .ph{max-width:100%;overflow:hidden;border-radius:4px;background:var(--well)}
+.fac-photos img{width:100%;height:100%;object-fit:cover}
+.fac-photos figcaption{font-size:.875rem;color:var(--ink-2)}
+.fac-photos figcaption b{margin-right:6px;color:var(--ink)}
+.addr{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 24px;margin-top:28px;padding:20px 24px;border:1px solid var(--line);border-radius:4px;background:var(--sheet)}
+.addr p{min-width:0;font-size:1.0625rem;font-weight:600}
+.addr p small{display:block;font-size:.8125rem;font-weight:500;color:var(--ink-3)}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.lk{display:inline-flex;align-items:center;min-height:38px;padding:0 14px;border:1px solid var(--line-2);border-radius:3px;background:var(--sheet);color:var(--ink);font-size:.8125rem;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
+.lk:hover,.lk.done{background:var(--navy);border-color:var(--navy);color:#fff}
+
+/* ---------- contact ---------- */
+.contact-grid{display:grid;gap:44px}
+@media (min-width:1024px){.contact-grid{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:72px;align-items:start}}
+.contact-main{min-width:0}
+.reach{display:grid;margin-top:32px;border-top:2px solid var(--ink)}
+.reach>div{display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:12px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
+.reach dt{font-size:.8125rem;font-weight:600;color:var(--ink-3)}
+.reach dd{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;min-width:0;font-size:1.0625rem;font-weight:600;color:var(--ink)}
+.reach .big{min-width:0;font-family:var(--f-mono);font-size:clamp(1.05rem,.9rem + .6vw,1.35rem);font-weight:500;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.reach a.big:hover{color:var(--accent)}
+.todo{display:inline-flex;align-items:center;gap:8px;padding:4px 10px;border:1px dashed var(--todo);border-radius:3px;color:var(--todo);font-size:.8125rem;font-weight:600}
+.todo::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.checklist{min-width:0;padding:26px 28px;border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:4px;background:var(--paper)}
+.checklist h3{margin-bottom:10px;font-size:1.0625rem;font-weight:700}
+.checklist li{display:grid;grid-template-columns:16px minmax(0,1fr);gap:12px;padding:11px 0;border-top:1px solid var(--line);font-size:.9375rem}
+.checklist li::before{content:"";width:13px;height:13px;margin-top:6px;border:1.5px solid var(--accent);border-radius:2px}
+.checklist small{display:block;font-size:.8125rem;color:var(--ink-3)}
+
+/* ---------- footer (navy, the one dark band) ---------- */
+.ftr{padding-block:44px 52px;background:var(--navy-3);color:var(--on-navy-2);border-top:3px solid var(--cyan)}
+.ftr-top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px;padding-bottom:28px;border-bottom:1px solid var(--navy-line)}
+.ftr-brand{display:grid;gap:10px}
+.ftr-brand img{height:52px;width:auto}
+.ftr-brand p{font-family:var(--f-disp);font-stretch:110%;font-size:.8125rem;letter-spacing:.04em}
+.ftr-nav{display:flex;flex-wrap:wrap;gap:8px 22px}
+.ftr-nav a{font-size:.875rem;text-decoration:none}
+.ftr-nav a:hover{color:#fff}
+.ftr-slogan{margin-top:24px;font-size:.9375rem;font-weight:600;color:#fff}
+.ftr-info{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:10px;font-size:.8125rem}
+.copy{margin-top:14px;font-size:.75rem}
+
+/* ---------- spec dialog ---------- */
+.dlg{width:min(1080px,calc(100% - 24px));max-width:none;max-height:calc(100% - 24px);margin:auto;padding:0;overflow:hidden;border:1px solid var(--line);border-radius:6px;background:var(--sheet);color:var(--ink);box-shadow:0 30px 80px -24px rgba(0,0,0,.55)}
+.dlg::backdrop{background:var(--scrim)}
+html:has(.dlg[open]){overflow:hidden}
+.dlg-in{display:grid;max-height:calc(100dvh - 26px);overflow:auto}
+@media (min-width:900px){.dlg-in{grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);overflow:hidden}.dlg-media,.dlg-body{max-height:calc(100dvh - 26px);overflow:auto}}
+.dlg-media{display:grid;gap:12px;align-content:start;padding:16px;border-bottom:1px solid var(--line)}
+@media (min-width:900px){.dlg-media{border-bottom:0;border-right:1px solid var(--line)}}
+.dlg-main{position:relative;max-width:100%;aspect-ratio:4/3;overflow:hidden;border:1px solid var(--line);border-radius:4px}
+.dlg-main img{position:absolute;inset:5%;width:90%;height:90%;object-fit:contain;mix-blend-mode:multiply}
+.dlg-main.photo img,.dlg-main.drawing img{inset:0;width:100%;height:100%}
+.dlg-main.photo img{mix-blend-mode:normal}
+.dlg-cap{font-size:.8125rem;color:var(--ink-3)}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding:2px}
+.thumbs button{position:relative;flex:none;width:76px;height:57px;padding:0;overflow:hidden;border:1px solid var(--line-2);border-radius:3px;cursor:pointer}
+.thumbs button[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.thumbs img{position:absolute;inset:4px;width:calc(100% - 8px);height:calc(100% - 8px);object-fit:contain;mix-blend-mode:multiply}
+.thumbs .photo img{inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:normal}
+.dlg-body{position:relative;display:grid;gap:18px;align-content:start;min-width:0;padding:28px 28px 32px}
+.dlg-body .eq-en{padding-right:48px}
+.dlg-body h3{margin-top:-8px;font-size:1.5rem;font-weight:700;line-height:1.35;letter-spacing:-.015em}
+.dlg-body .eq-desc{font-size:1rem}
+.dlg-x{position:absolute;top:12px;right:12px;z-index:3;display:grid;place-items:center;width:40px;height:40px;padding:0;border:1px solid var(--line-2);border-radius:50%;background:var(--sheet);color:var(--ink);cursor:pointer;box-shadow:0 2px 8px rgba(13,32,56,.18)}
+.dlg-x:hover{border-color:var(--ink)}
+.dlg-x svg{width:16px;height:16px}
+.spec-head{display:flex;justify-content:space-between;gap:12px}
+.spec{display:grid;border-top:2px solid var(--ink)}
+.spec>div{display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.875rem}
+.spec dt{font-weight:600;color:var(--ink-3)}
+.spec dd{min-width:0;font-family:var(--f-mono);line-height:1.6;font-variant-numeric:tabular-nums}
+.spec dd span{display:block}
+.plan{display:grid;gap:8px}
+.plan svg{display:block;width:100%;height:auto;overflow:visible}
+.pl-floor{fill:none;stroke:var(--line-2);stroke-width:1}
+.pl-grid{stroke:var(--line);stroke-width:1}
+.pl-m{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.6}
+.pl-dim{stroke:var(--ink-2);stroke-width:1}
+.pl-t{fill:var(--ink);font-family:var(--f-mono);font-size:11px}
+.pl-flow{stroke:var(--accent);stroke-width:1.4;fill:none}
+.pl-ft{fill:var(--accent);font-family:var(--f-mono);font-size:10px}
+.plan figcaption{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;font-size:.78rem;color:var(--ink-3)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<header class="hdr">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="메카인텔리 처음으로">
+      <img src="assets/logo-mark.png" alt="MECHA INTELLI" width="413" height="144">
+      <span class="brand-ko">㈜메카인텔리</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#about">회사소개</a>
+      <a href="#lineup">설비 라인업</a>
+      <a href="#precision">기술역량</a>
+      <a href="#projects">수행실적</a>
+      <a href="#facility">사업장</a>
+      <a class="cta" href="#contact">견적 문의</a>
+    </nav>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mnav"><span class="bars" aria-hidden="true"></span><span id="menu-label">메뉴</span></button>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="모바일 메뉴" hidden>
+    <div class="wrap">
+      <a href="#about">회사소개</a>
+      <a href="#lineup">설비 라인업</a>
+      <a href="#precision">기술역량</a>
+      <a href="#projects">수행실적</a>
+      <a href="#facility">사업장</a>
+      <a href="#contact">견적·기술 문의</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-h">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="kicker">ONE-STOP AUTOMATION SOLUTION</p>
+        <h1 id="hero-h"><span>첨단 자동화 기술로</span><span>고객의 <em>미래 경쟁력</em>을</span><span>완성합니다.</span></h1>
+        <p class="tagline"><span>Engineering Excellence.</span> <span>Manufacturing Innovation.</span></p>
+        <p class="lead">㈜메카인텔리는 2차전지·반도체·디스플레이 및 정밀 자동화 설비 전문 기업입니다. 설비 기획부터 정밀 설계, 제작, 설치·시운전, 양산 안정화까지 전 공정을 직접 수행합니다.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">견적·기술 문의<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a class="btn btn-line" href="#lineup">설비 라인업 보기</a>
+        </div>
+        <dl class="facts">
+          <div><dt>FOUNDED</dt><dd><b>2024</b>년 5월</dd></div>
+          <div><dt>PEOPLE</dt><dd><b>20</b>명</dd></div>
+          <div><dt>SITE</dt><dd><b>1,070</b>평 부지</dd></div>
+          <div><dt>SCOPE</dt><dd>설계 · 제작 · 셋업</dd></div>
+        </dl>
+      </div>
+
+      <figure class="fig" aria-labelledby="fig-cap">
+        <div class="stage" id="stage">
+          <img src="assets/img/inline-system.webp" alt="디스플레이 인라인 본딩 라인 3D 모델. 로더부터 언로더까지 13개 모듈이 한 줄로 연결되어 있습니다." width="1142" height="794" fetchpriority="high">
+          <svg class="leaders" viewBox="0 0 1142 794" preserveAspectRatio="none" aria-hidden="true"><line data-k="1" x1="157.6" y1="679.7" x2="291.2" y2="762.2"/><line data-k="2" x1="238.7" y1="620.9" x2="359.7" y2="718.6"/><line data-k="3" x1="311.8" y1="588.4" x2="428.2" y2="670.9"/><line data-k="4" x1="292.4" y1="459.7" x2="131.3" y2="397.0"/><line data-k="5" x1="408.8" y1="532.0" x2="508.2" y2="619.3"/><line data-k="6" x1="478.5" y1="475.6" x2="588.1" y2="563.7"/><line data-k="7" x1="656.6" y1="291.4" x2="542.5" y2="206.4"/><line data-k="8" x1="730.9" y1="219.1" x2="628.1" y2="115.1"/><line data-k="9" x1="616.7" y1="408.1" x2="725.2" y2="500.2"/><line data-k="10" x1="688.6" y1="354.1" x2="805.1" y2="444.6"/><line data-k="11" x1="798.3" y1="298.5" x2="896.5" y2="389.1"/><line data-k="12" x1="877.1" y1="239.8" x2="987.8" y2="333.5"/><line data-k="13" x1="1024.4" y1="192.1" x2="1090.6" y2="273.9"/></svg>
+          <span class="tgt" data-k="1" style="--x:13.8%;--y:85.6%"></span><span class="bal" data-k="1" style="--x:25.5%;--y:96.0%" aria-hidden="true">1</span>
+          <span class="tgt" data-k="2" style="--x:20.9%;--y:78.2%"></span><span class="bal" data-k="2" style="--x:31.5%;--y:90.5%" aria-hidden="true">2</span>
+          <span class="tgt" data-k="3" style="--x:27.3%;--y:74.1%"></span><span class="bal" data-k="3" style="--x:37.5%;--y:84.5%" aria-hidden="true">3</span>
+          <span class="tgt" data-k="4" style="--x:25.6%;--y:57.9%"></span><span class="bal" data-k="4" style="--x:11.5%;--y:50.0%" aria-hidden="true">4</span>
+          <span class="tgt" data-k="5" style="--x:35.8%;--y:67.0%"></span><span class="bal" data-k="5" style="--x:44.5%;--y:78.0%" aria-hidden="true">5</span>
+          <span class="tgt" data-k="6" style="--x:41.9%;--y:59.9%"></span><span class="bal" data-k="6" style="--x:51.5%;--y:71.0%" aria-hidden="true">6</span>
+          <span class="tgt" data-k="7" style="--x:57.5%;--y:36.7%"></span><span class="bal" data-k="7" style="--x:47.5%;--y:26.0%" aria-hidden="true">7</span>
+          <span class="tgt" data-k="8" style="--x:64.0%;--y:27.6%"></span><span class="bal" data-k="8" style="--x:55.0%;--y:14.5%" aria-hidden="true">8</span>
+          <span class="tgt" data-k="9" style="--x:54.0%;--y:51.4%"></span><span class="bal" data-k="9" style="--x:63.5%;--y:63.0%" aria-hidden="true">9</span>
+          <span class="tgt" data-k="10" style="--x:60.3%;--y:44.6%"></span><span class="bal" data-k="10" style="--x:70.5%;--y:56.0%" aria-hidden="true">10</span>
+          <span class="tgt" data-k="11" style="--x:69.9%;--y:37.6%"></span><span class="bal" data-k="11" style="--x:78.5%;--y:49.0%" aria-hidden="true">11</span>
+          <span class="tgt" data-k="12" style="--x:76.8%;--y:30.2%"></span><span class="bal" data-k="12" style="--x:86.5%;--y:42.0%" aria-hidden="true">12</span>
+          <span class="tgt" data-k="13" style="--x:89.7%;--y:24.2%"></span><span class="bal" data-k="13" style="--x:95.5%;--y:34.5%" aria-hidden="true">13</span>
+        </div>
+        <figcaption class="figcap" id="fig-cap"><b>DISPLAY IN-LINE SYSTEM</b><span>COF/COG · FOF/FOG 본딩 라인 · 3D 모델</span></figcaption>
+        <div class="parts">
+          <div>
+            <h3>COF / COG</h3>
+            <ol><li data-k="1"><i aria-hidden="true">1</i>LOADER</li><li data-k="2"><i aria-hidden="true">2</i>PLASMA</li><li data-k="3"><i aria-hidden="true">3</i>ACF BONDER</li><li data-k="4"><i aria-hidden="true">4</i>COF PRESS</li><li data-k="5"><i aria-hidden="true">5</i>PRE BONDER</li><li data-k="6"><i aria-hidden="true">6</i>MAIN BONDER</li></ol>
+          </div>
+          <div>
+            <h3>FOF / FOG</h3>
+            <ol><li data-k="7"><i aria-hidden="true">7</i>ACF BONDER</li><li data-k="8"><i aria-hidden="true">8</i>FPC LOADER</li><li data-k="9"><i aria-hidden="true">9</i>MAIN BONDER</li><li data-k="10"><i aria-hidden="true">10</i>반전기</li><li data-k="11"><i aria-hidden="true">11</i>ART</li><li data-k="12"><i aria-hidden="true">12</i>DISPENSER</li><li data-k="13"><i aria-hidden="true">13</i>UNLOADER</li></ol>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band band-sheet" id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="eyebrow">ABOUT US</p>
+          <h2 id="about-h">기술력과 신뢰로 고객의 생산 혁신을 실현합니다</h2>
+          <div class="about-text">
+            <p>㈜메카인텔리는 2차전지, 반도체, 디스플레이 및 정밀 자동화 설비 분야의 기술력과 현장 경험을 바탕으로 설비 기획부터 정밀 설계, 제작, 설치 및 시운전, 양산 안정화까지 아우르는 Total One-Stop Solution을 제공합니다.</p>
+            <p>고객의 생산 환경과 공정 특성을 분석해 맞춤형 자동화 시스템을 구현하고, 체계적인 프로젝트 관리로 설비 완성도와 품질, 생산 효율, 납기를 지킵니다.</p>
+            <p>초기 기술 검토부터 설비 구축, 성능 검증, 양산 안정화까지 고객과 긴밀하게 협력하며 현장에서 생기는 기술 과제에 신속하게 대응합니다.</p>
+          </div>
+        </div>
+        <div class="info-box">
+          <p class="cap">COMPANY PROFILE</p>
+          <dl class="info">
+            <div><dt>상호</dt><dd>㈜메카인텔리 (MECHA INTELLI)</dd></div>
+            <div><dt>대표이사</dt><dd>이종명</dd></div>
+            <div><dt>설립일</dt><dd>2024년 5월 9일</dd></div>
+            <div><dt>소재지</dt><dd>충남 천안시 서북구 입장면 도림길 26-24</dd></div>
+            <div><dt>주요 제품</dt><dd>2차전지 · 디스플레이 · 반도체 자동화 설비</dd></div>
+            <div><dt>인원</dt><dd>20명 (대표이사 1 · 임직원 19)</dd></div>
+            <div><dt>사업장</dt><dd>부지 1,070평 · 공장 A동 약 280평 · B동 약 120평</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <ul class="works" aria-label="설계·제작 설비 3D 모델"><li class="well"><img src="assets/img/proj-1.webp" alt="" width="260" height="210" loading="lazy" decoding="async"></li><li class="well"><img src="assets/img/proj-2.webp" alt="" width="398" height="198" loading="lazy" decoding="async"></li><li class="well"><img src="assets/img/proj-3.webp" alt="" width="362" height="190" loading="lazy" decoding="async"></li><li class="well"><img src="assets/img/proj-4.webp" alt="" width="362" height="258" loading="lazy" decoding="async"></li><li class="well"><img src="assets/img/proj-5.webp" alt="" width="333" height="252" loading="lazy" decoding="async"></li><li class="well"><img src="assets/img/proj-6.webp" alt="" width="266" height="249" loading="lazy" decoding="async"></li></ul>
+      <p class="works-cap">설계·제작 설비 3D 모델</p>
+
+      <ul class="values">
+        <li><span class="k">CHALLENGE</span><h3>기술에 대한 도전</h3><p>새로운 공정과 더 높은 정밀도 요구에 맞춰 설계 역량을 넓혀 갑니다.</p></li>
+        <li><span class="k">RESPONSIBILITY</span><h3>품질에 대한 책임</h3><p>설비 완성도와 안정적인 품질을 약속한 납기 안에 지킵니다.</p></li>
+        <li><span class="k">TRUST</span><h3>고객과의 신뢰</h3><p>기술 검토부터 양산 안정화까지 고객과 함께 문제를 풀어 갑니다.</p></li>
+      </ul>
+
+      <div class="org-wrap">
+        <div>
+          <p class="eyebrow">ORGANIZATION</p>
+          <h3>조직 및 전문 인력</h3>
+          <p>기구 설계, 제어(PLC·전장), 제조 인력이 모두 사내에 있어 설계부터 시운전까지 한 조직 안에서 이어집니다.</p>
+          <p class="headcount"><b>20</b><span>명 · 대표이사 1, 임직원 19</span></p>
+        </div>
+        <div class="org" role="group" aria-label="조직도">
+          <div class="org-top">
+            <span class="org-side">고문</span>
+            <span class="org-ceo">대표이사</span>
+            <span class="org-side">감사</span>
+          </div>
+          <ul class="org-divs">
+            <li><b>설계부문</b><span>설계 1팀</span><span>설계 2팀</span></li>
+            <li><b>제조기술파트</b><span>제조팀</span></li>
+            <li><b>제어기술파트</b><span>PLC</span><span>전장</span></li>
+            <li><b>경영지원본부</b><span>구매영업팀</span><span>총무팀</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="lineup" aria-labelledby="lineup-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">EQUIPMENT LINE-UP</p>
+        <h2 id="lineup-h">설비 라인업</h2>
+        <p class="sec-lead">고객 공정에 맞춰 주문 제작한 대표 설비입니다. 사양은 납품 사례 기준이며, 평면도는 모두 같은 축척(1칸 = 1 m)으로 그렸습니다.</p>
+      </div>
+      <div class="filters" role="group" aria-label="분야별 보기"><button type="button" class="chip" data-f="all" aria-pressed="true">전체 <small>15</small></button><button type="button" class="chip" data-f="display" aria-pressed="false">디스플레이 <small>7</small></button><button type="button" class="chip" data-f="battery" aria-pressed="false">2차전지 <small>3</small></button><button type="button" class="chip" data-f="semi" aria-pressed="false">반도체 <small>1</small></button><button type="button" class="chip" data-f="auto" aria-pressed="false">자동차·정밀 <small>2</small></button><button type="button" class="chip" data-f="logi" aria-pressed="false">물류·검사 <small>2</small></button></div>
+      <p class="result" id="result" aria-live="polite">15개 설비</p>
+      <div class="eq-grid" id="eq-grid"><article class="eq" data-cat="display" id="eq-roll-lamination">
+          <button type="button" class="eq-media well render" data-open="roll-lamination" aria-label="롤 라미네이션 사양 보기">
+            <img src="assets/img/roll-lamination.webp" alt="롤 라미네이션 시스템 3D 모델" width="426" height="368" loading="lazy" decoding="async">
+            <span class="tag">DISPLAY</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">ROLL LAMINATION SYSTEM</p>
+            <h3>롤 라미네이션</h3>
+            <p class="eq-desc">폴더블 스마트폰의 메탈 내장 힌지와 공정용 필름을 비전 얼라인한 뒤 롤러로 합착합니다.</p>
+            <dl class="eq-key"><div><dt>물류 높이</dt><dd>1,200 ±50 mm</dd></div><div><dt>자재</dt><dd>50×85 ~ 250×250 mm</dd></div></dl>
+            <figure class="fp"><svg viewBox="0 0 172 45" role="img" aria-label="평면도: 길이 3,500 mm, 폭 2,400 mm. 한 칸은 1 m"><rect class="fp-floor" x="1" y="1" width="170" height="42.5"/><line class="fp-grid" x1="18" y1="1" x2="18" y2="43.5"/><line class="fp-grid" x1="35" y1="1" x2="35" y2="43.5"/><line class="fp-grid" x1="52" y1="1" x2="52" y2="43.5"/><line class="fp-grid" x1="69" y1="1" x2="69" y2="43.5"/><line class="fp-grid" x1="86" y1="1" x2="86" y2="43.5"/><line class="fp-grid" x1="103" y1="1" x2="103" y2="43.5"/><line class="fp-grid" x1="120" y1="1" x2="120" y2="43.5"/><line class="fp-grid" x1="137" y1="1" x2="137" y2="43.5"/><line class="fp-grid" x1="154" y1="1" x2="154" y2="43.5"/><line class="fp-grid" x1="1" y1="18" x2="171" y2="18"/><line class="fp-grid" x1="1" y1="35" x2="171" y2="35"/><rect class="fp-m" x="1" y="1" width="59.5" height="40.8"/></svg><figcaption><span>L 3,500 × W 2,400 × H 2,000 mm</span><span>1칸 1 m</span></figcaption></figure>
+            <button type="button" class="eq-more" data-open="roll-lamination">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="display" id="eq-utg-lamination">
+          <button type="button" class="eq-media well render" data-open="utg-lamination" aria-label="UTG 롤 라미네이션 사양 보기">
+            <img src="assets/img/utg-lamination.webp" alt="UTG 롤 라미네이션 시스템 3D 모델" width="570" height="554" loading="lazy" decoding="async">
+            <span class="tag">DISPLAY</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">UTG ROLL LAMINATION SYSTEM</p>
+            <h3>UTG 롤 라미네이션</h3>
+            <p class="eq-desc">폴더블 스마트폰용 UTG(Ultra Thin Glass)에 OCA(Optical Clear Adhesive)를 비전 얼라인해 양면으로 롤러 합착합니다.</p>
+            <dl class="eq-key"><div><dt>물류 높이</dt><dd>1,200 ±50 mm</dd></div><div><dt>자재</dt><dd>50×85 ~ 250×250 mm</dd></div></dl>
+            <figure class="fp"><svg viewBox="0 0 172 45" role="img" aria-label="평면도: 길이 8,500 mm, 폭 2,400 mm. 한 칸은 1 m"><rect class="fp-floor" x="1" y="1" width="170" height="42.5"/><line class="fp-grid" x1="18" y1="1" x2="18" y2="43.5"/><line class="fp-grid" x1="35" y1="1" x2="35" y2="43.5"/><line class="fp-grid" x1="52" y1="1" x2="52" y2="43.5"/><line class="fp-grid" x1="69" y1="1" x2="69" y2="43.5"/><line class="fp-grid" x1="86" y1="1" x2="86" y2="43.5"/><line class="fp-grid" x1="103" y1="1" x2="103" y2="43.5"/><line class="fp-grid" x1="120" y1="1" x2="120" y2="43.5"/><line class="fp-grid" x1="137" y1="1" x2="137" y2="43.5"/><line class="fp-grid" x1="154" y1="1" x2="154" y2="43.5"/><line class="fp-grid" x1="1" y1="18" x2="171" y2="18"/><line class="fp-grid" x1="1" y1="35" x2="171" y2="35"/><rect class="fp-m" x="1" y="1" width="144.5" height="40.8"/></svg><figcaption><span>L 8,500 × W 2,400 × H 2,200 mm</span><span>1칸 1 m</span></figcaption></figure>
+            <button type="button" class="eq-more" data-open="utg-lamination">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="display" id="eq-fpcb-bending">
+          <button type="button" class="eq-media well render" data-open="fpcb-bending" aria-label="FPCB 벤딩 사양 보기">
+            <img src="assets/img/fpcb-bending.webp" alt="FPCB 벤딩 시스템 3D 모델" width="1156" height="722" loading="lazy" decoding="async">
+            <span class="tag">DISPLAY</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">FPCB BENDING SYSTEM</p>
+            <h3>FPCB 벤딩</h3>
+            <p class="eq-desc">디스플레이 패널에 연결된 COF·FPC·FPCB를 조립하기 쉽게 벤딩해 패널에 부착합니다.</p>
+            <dl class="eq-key"><div><dt>물류 높이</dt><dd>1,100 ±50 mm</dd></div><div><dt>자재</dt><dd>50×85 ~ 250×250 mm</dd></div></dl>
+            <figure class="fp"><svg viewBox="0 0 172 45" role="img" aria-label="평면도: 길이 9,500 mm, 폭 2,400 mm. 한 칸은 1 m"><rect class="fp-floor" x="1" y="1" width="170" height="42.5"/><line class="fp-grid" x1="18" y1="1" x2="18" y2="43.5"/><line class="fp-grid" x1="35" y1="1" x2="35" y2="43.5"/><line class="fp-grid" x1="52" y1="1" x2="52" y2="43.5"/><line class="fp-grid" x1="69" y1="1" x2="69" y2="43.5"/><line class="fp-grid" x1="86" y1="1" x2="86" y2="43.5"/><line class="fp-grid" x1="103" y1="1" x2="103" y2="43.5"/><line class="fp-grid" x1="120" y1="1" x2="120" y2="43.5"/><line class="fp-grid" x1="137" y1="1" x2="137" y2="43.5"/><line class="fp-grid" x1="154" y1="1" x2="154" y2="43.5"/><line class="fp-grid" x1="1" y1="18" x2="171" y2="18"/><line class="fp-grid" x1="1" y1="35" x2="171" y2="35"/><rect class="fp-m" x="1" y="1" width="161.5" height="40.8"/></svg><figcaption><span>L 9,500 × W 2,400 × H 2,100 mm</span><span>1칸 1 m</span></figcaption></figure>
+            <button type="button" class="eq-more" data-open="fpcb-bending">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="display" id="eq-cof-cop">
+          <button type="button" class="eq-media well render" data-open="cof-cop" aria-label="COF·COP 본딩 사양 보기">
+            <img src="assets/img/cof-cop.webp" alt="COF·COP 본딩 시스템 3D 모델" width="658" height="693" loading="lazy" decoding="async">
+            <span class="tag">DISPLAY</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">COF / COP BONDING SYSTEM</p>
+            <h3>COF·COP 본딩</h3>
+            <p class="eq-desc">3&quot;~15.6&quot; 패널에 ACF를 부착하고 COF 또는 칩을 비전 얼라인해 열압착 본딩합니다.</p>
+            <dl class="eq-key"><div><dt>정밀도</dt><dd>COP ±3 ㎛ · COF ±4 ㎛</dd></div><div><dt>TACT</dt><dd>15 s (1 COF)</dd></div></dl>
+            <figure class="fp"><svg viewBox="0 0 172 45" role="img" aria-label="평면도: 길이 3,000 mm, 폭 2,200 mm. 한 칸은 1 m"><rect class="fp-floor" x="1" y="1" width="170" height="42.5"/><line class="fp-grid" x1="18" y1="1" x2="18" y2="43.5"/><line class="fp-grid" x1="35" y1="1" x2="35" y2="43.5"/><line class="fp-grid" x1="52" y1="1" x2="52" y2="43.5"/><line class="fp-grid" x1="69" y1="1" x2="69" y2="43.5"/><line class="fp-grid" x1="86" y1="1" x2="86" y2="43.5"/><line class="fp-grid" x1="103" y1="1" x2="103" y2="43.5"/><line class="fp-grid" x1="120" y1="1" x2="120" y2="43.5"/><line class="fp-grid" x1="137" y1="1" x2="137" y2="43.5"/><line class="fp-grid" x1="154" y1="1" x2="154" y2="43.5"/><line class="fp-grid" x1="1" y1="18" x2="171" y2="18"/><line class="fp-grid" x1="1" y1="35" x2="171" y2="35"/><rect class="fp-m" x="1" y="1" width="51.0" height="37.4"/></svg><figcaption><span>L 3,000 × W 2,200 × H 1,800 mm</span><span>1칸 1 m</span></figcaption></figure>
+            <button type="button" class="eq-more" data-open="cof-cop">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="display" id="eq-fof-fop">
+          <button type="button" class="eq-media well render" data-open="fof-fop" aria-label="FOF·FOP 본딩 사양 보기">
+            <img src="assets/img/fof-fop.webp" alt="FOF·FOP 본딩 시스템 3D 모델" width="805" height="709" loading="lazy" decoding="async">
+            <span class="tag">DISPLAY</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">FOF / FOP BONDING SYSTEM</p>
+            <h3>FOF·FOP 본딩</h3>
+            <p class="eq-desc">3&quot;~15.6&quot; 패널에 ACF를 부착하고 FPC를 비전 얼라인해 열압착 본딩합니다.</p>
+            <dl class="eq-key"><div><dt>정밀도</dt><dd>FOP ±10 ㎛ · FOF ±15 ㎛</dd></div><div><dt>TACT</dt><dd>FOP 18 s · FOF 20 s</dd></div></dl>
+            <figure class="fp"><svg viewBox="0 0 172 45" role="img" aria-label="평면도: 길이 3,500 mm, 폭 1,250 mm. 한 칸은 1 m"><rect class="fp-floor" x="1" y="1" width="170" height="42.5"/><line class="fp-grid" x1="18" y1="1" x2="18" y2="43.5"/><line class="fp-grid" x1="35" y1="1" x2="35" y2="43.5"/><line class="fp-grid" x1="52" y1="1" x2="52" y2="43.5"/><line class="fp-grid" x1="69" y1="1" x2="69" y2="43.5"/><line class="fp-grid" x1="86" y1="1" x2="86" y2="43.5"/><line class="fp-grid" x1="103" y1="1" x2="103" y2="43.5"/><line class="fp-grid" x1="120" y1="1" x2="120" y2="43.5"/><line class="fp-grid" x1="137" y1="1" x2="137" y2="43.5"/><line class="fp-grid" x1="154" y1="1" x2="154" y2="43.5"/><line class="fp-grid" x1="1" y1="18" x2="171" y2="18"/><line class="fp-grid" x1="1" y1="35" x2="171" y2="35"/><rect class="fp-m" x="1" y="1" width="59.5" height="21.2"/></svg><figcaption><span>L 3,500 × W 1,250 × H 1,800 mm</span><span>1칸 1 m</span></figcaption></figure>
+            <button type="button" class="eq-more" data-open="fof-fop">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="display" id="eq-inline">
+          <button type="button" class="eq-media well render" data-open="inline" aria-label="디스플레이 인라인 본딩 라인 사양 보기">
+            <img src="assets/img/inline-system.webp" alt="디스플레이 인라인 본딩 라인 3D 모델" width="1142" height="794" loading="lazy" decoding="async">
+            <span class="tag">DISPLAY</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">DISPLAY IN-LINE SYSTEM</p>
+            <h3>디스플레이 인라인 본딩 라인</h3>
+            <p class="eq-desc">로더부터 플라즈마, ACF 본더, 가압착·본압착, FPC 본딩, 디스펜서, 언로더까지 13개 모듈을 한 라인으로 연결합니다.</p>
+            <dl class="eq-key"><div><dt>구성</dt><dd>LOADER ~ UNLOADER 13개 모듈</dd></div><div><dt>본딩</dt><dd>COF/COG · FOF/FOG</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="inline">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="display" id="eq-loader">
+          <button type="button" class="eq-media well render" data-open="loader" aria-label="로더·언로더 사양 보기">
+            <img src="assets/img/loader-render.webp" alt="로더·언로더 3D 모델 (컨베이어, 다이버터, 핸들러, 트레이 단분리·회전)" width="784" height="711" loading="lazy" decoding="async">
+            <span class="tag">DISPLAY</span><span class="count">6장</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">LOADER / UNLOADER SYSTEM</p>
+            <h3>로더·언로더</h3>
+            <p class="eq-desc">트레이 단분리·회전, 제품 핸들러, 다이버터, 컨베이어로 공정 설비의 자재 투입과 배출을 자동화합니다.</p>
+            <dl class="eq-key"><div><dt>구성</dt><dd>TRAY 단분리·회전 · HANDLER</dd></div><div><dt>이송</dt><dd>DIVERTER · CONVEYOR</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="loader">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="battery" id="eq-forming">
+          <button type="button" class="eq-media well render" data-open="forming" aria-label="단동 포밍·주액·디개싱·실링 사양 보기">
+            <img src="assets/img/forming-1.webp" alt="단동 설비 3D 모델 1" width="624" height="657" loading="lazy" decoding="async">
+            <span class="tag">BATTERY</span><span class="count">4장</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">FORMING · FILLING · DEGAS · SEALING</p>
+            <h3>단동 포밍·주액·디개싱·실링</h3>
+            <p class="eq-desc">2차전지 셀 공정의 파우치 포밍, 전해액 주액, 디개싱, 실링을 단동(Stand-alone) 설비로 구성합니다.</p>
+            <dl class="eq-key"><div><dt>공정</dt><dd>포밍 · 주액 · 디개싱 · 실링</dd></div><div><dt>형태</dt><dd>단동 설비 4종</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="forming">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="battery" id="eq-inline-filling">
+          <button type="button" class="eq-media well render" data-open="inline-filling" aria-label="인라인 주액·실링 사양 보기">
+            <img src="assets/img/inline-filling-1.webp" alt="인라인 주액·실링 설비 3D 모델 1" width="767" height="595" loading="lazy" decoding="async">
+            <span class="tag">BATTERY</span><span class="count">2장</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">IN-LINE FILLING · SEALING</p>
+            <h3>인라인 주액·실링</h3>
+            <p class="eq-desc">전해액 주액과 실링 공정을 하나의 인라인 설비로 연결해 연속 생산에 대응합니다.</p>
+            <dl class="eq-key"><div><dt>공정</dt><dd>전해액 주액 · 실링</dd></div><div><dt>형태</dt><dd>인라인</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="inline-filling">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="battery" id="eq-bma">
+          <button type="button" class="eq-media well render" data-open="bma" aria-label="BMA·BSA 조립라인 사양 보기">
+            <img src="assets/img/bma-line.webp" alt="BMA/BSA 조립라인 3D 모델" width="438" height="246" loading="lazy" decoding="async">
+            <span class="tag">BATTERY</span><span class="count">2장</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">BMA / BSA ASSEMBLY LINE</p>
+            <h3>BMA·BSA 조립라인</h3>
+            <p class="eq-desc">배터리 모듈(BMA)과 배터리 시스템(BSA) 조립라인을 설계·제작하고 현장 셋업까지 수행합니다.</p>
+            <dl class="eq-key"><div><dt>대표 실적</dt><dd>배터리 모듈 조립라인 (수량 16)</dd></div><div><dt>범위</dt><dd>설계 · 제작 · 셋업</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="bma">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="semi" id="eq-ic-tray">
+          <button type="button" class="eq-media well render" data-open="ic-tray" aria-label="IC 트레이 자동 포장 사양 보기">
+            <img src="assets/img/ic-photo.webp" alt="IC 트레이 자동 포장 설비 외관" width="1019" height="370" loading="lazy" decoding="async">
+            <span class="tag">SEMICONDUCTOR</span><span class="count">2장</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">IC TRAY AUTO PACKING SYSTEM</p>
+            <h3>IC 트레이 자동 포장</h3>
+            <p class="eq-desc">Final Test를 마친 IC 트레이에 습도 인디케이터와 실리카겔을 자동 공급하고, PP 밴딩 후 알루미늄 방습백에 넣어 진공 실링합니다.</p>
+            <dl class="eq-key"><div><dt>포장 단위</dt><dd>11단 (Cover Tray 포함)</dd></div><div><dt>TRAY</dt><dd>JEDEC 322.6×135.9×12.19</dd></div></dl>
+            <figure class="fp"><svg viewBox="0 0 172 45" role="img" aria-label="평면도: 길이 10,000 mm, 폭 2,400 mm. 한 칸은 1 m"><rect class="fp-floor" x="1" y="1" width="170" height="42.5"/><line class="fp-grid" x1="18" y1="1" x2="18" y2="43.5"/><line class="fp-grid" x1="35" y1="1" x2="35" y2="43.5"/><line class="fp-grid" x1="52" y1="1" x2="52" y2="43.5"/><line class="fp-grid" x1="69" y1="1" x2="69" y2="43.5"/><line class="fp-grid" x1="86" y1="1" x2="86" y2="43.5"/><line class="fp-grid" x1="103" y1="1" x2="103" y2="43.5"/><line class="fp-grid" x1="120" y1="1" x2="120" y2="43.5"/><line class="fp-grid" x1="137" y1="1" x2="137" y2="43.5"/><line class="fp-grid" x1="154" y1="1" x2="154" y2="43.5"/><line class="fp-grid" x1="1" y1="18" x2="171" y2="18"/><line class="fp-grid" x1="1" y1="35" x2="171" y2="35"/><rect class="fp-m" x="1" y="1" width="170.0" height="40.8"/></svg><figcaption><span>L 10,000 × W 2,400 × H 1,900 mm</span><span>1칸 1 m</span></figcaption></figure>
+            <button type="button" class="eq-more" data-open="ic-tray">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="auto" id="eq-auto">
+          <button type="button" class="eq-media well photo" data-open="auto" aria-label="자동차 부품 정밀 조립 사양 보기">
+            <img src="assets/img/auto-compressor.webp" alt="자동차 컴프레셔 조립 설비" width="536" height="397" loading="lazy" decoding="async">
+            <span class="tag">AUTOMOTIVE</span><span class="count">4장</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">AUTOMOTIVE ASSEMBLY</p>
+            <h3>자동차 부품 정밀 조립</h3>
+            <p class="eq-desc">자동차 컴프레셔 조립 설비, PCB 조립기, 볼트 체결기, 커넥터 체결기 등 부품 조립 자동화 설비를 제작합니다.</p>
+            <dl class="eq-key"><div><dt>조립</dt><dd>컴프레셔 · PCB</dd></div><div><dt>체결</dt><dd>BOLT · CONNECTOR</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="auto">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="auto" id="eq-laser">
+          <button type="button" class="eq-media well render" data-open="laser" aria-label="레이저 마킹 사양 보기">
+            <img src="assets/img/laser-marking.webp" alt="레이저 마킹 시스템 3D 모델" width="673" height="776" loading="lazy" decoding="async">
+            <span class="tag">PRECISION</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">LASER MARKING SYSTEM</p>
+            <h3>레이저 마킹</h3>
+            <p class="eq-desc">컨베이어로 투입된 PCB의 상면과 배면에 바코드와 문자를 레이저로 마킹한 뒤 배출합니다.</p>
+            <dl class="eq-key"><div><dt>제품</dt><dd>PCB 50×50 ~ 250×250 mm</dd></div><div><dt>방식</dt><dd>Top·Bottom · Dual 공급</dd></div></dl>
+            <figure class="fp"><svg viewBox="0 0 172 45" role="img" aria-label="평면도: 길이 1,400 mm, 폭 2,400 mm. 한 칸은 1 m"><rect class="fp-floor" x="1" y="1" width="170" height="42.5"/><line class="fp-grid" x1="18" y1="1" x2="18" y2="43.5"/><line class="fp-grid" x1="35" y1="1" x2="35" y2="43.5"/><line class="fp-grid" x1="52" y1="1" x2="52" y2="43.5"/><line class="fp-grid" x1="69" y1="1" x2="69" y2="43.5"/><line class="fp-grid" x1="86" y1="1" x2="86" y2="43.5"/><line class="fp-grid" x1="103" y1="1" x2="103" y2="43.5"/><line class="fp-grid" x1="120" y1="1" x2="120" y2="43.5"/><line class="fp-grid" x1="137" y1="1" x2="137" y2="43.5"/><line class="fp-grid" x1="154" y1="1" x2="154" y2="43.5"/><line class="fp-grid" x1="1" y1="18" x2="171" y2="18"/><line class="fp-grid" x1="1" y1="35" x2="171" y2="35"/><rect class="fp-m" x="1" y="1" width="23.8" height="40.8"/></svg><figcaption><span>L 1,400 × W 2,400 × H 1,900 mm</span><span>1칸 1 m</span></figcaption></figure>
+            <button type="button" class="eq-more" data-open="laser">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="logi" id="eq-agv">
+          <button type="button" class="eq-media well render" data-open="agv" aria-label="제품 적재 AGV 사양 보기">
+            <img src="assets/img/agv.webp" alt="제품 적재 AGV 3D 모델" width="311" height="395" loading="lazy" decoding="async">
+            <span class="tag">LOGISTICS</span><span class="count">2장</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">PRODUCT LOADING AGV</p>
+            <h3>제품 적재 AGV</h3>
+            <p class="eq-desc">랙에 제품을 자동으로 적재하는 물류 AGV 제작에 참여했습니다.</p>
+            <dl class="eq-key"><div><dt>용도</dt><dd>랙 제품 자동 적재</dd></div><div><dt>수행</dt><dd>물류 AGV 제작 참여</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="agv">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article>
+        <article class="eq" data-cat="logi" id="eq-xray">
+          <button type="button" class="eq-media well render" data-open="xray" aria-label="2D X-RAY 검사기 사양 보기">
+            <img src="assets/img/xray.webp" alt="2D X-RAY 검사기 3D 모델" width="833" height="769" loading="lazy" decoding="async">
+            <span class="tag">INSPECTION</span>
+          </button>
+          <div class="eq-body">
+            <p class="eq-en">2D X-RAY INSPECTION SYSTEM</p>
+            <h3>2D X-RAY 검사기</h3>
+            <p class="eq-desc">2D X-RAY 투과 영상으로 제품 내부를 검사하는 설비입니다.</p>
+            <dl class="eq-key"><div><dt>검사</dt><dd>2D X-RAY 투과 검사</dd></div><div><dt>형태</dt><dd>단독형 캐비닛</dd></div></dl>
+            
+            <button type="button" class="eq-more" data-open="xray">상세 사양<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </article></div>
+      <p class="note">모든 설비는 고객 사양에 맞춰 설계·제작합니다. 정밀도는 3σ 기준입니다.</p>
+    </div>
+  </section>
+
+  <section class="band band-sheet" id="precision" aria-labelledby="prec-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">PRECISION</p>
+        <h2 id="prec-h">본딩 정밀도와 택트 타임</h2>
+        <p class="sec-lead">COF·COP·FOF·FOP 본딩 설비의 납품 사양입니다. 허용 오차를 ±100 ㎛ 눈금 위에 같은 축척으로 그렸습니다.</p>
+      </div>
+      <div class="prec-grid">
+        <figure class="tol" aria-labelledby="tol-cap">
+          <div class="tol-rows"><div class="tol-row"><span class="tol-name">COP 본딩<small>X·Y축</small></span><span class="tol-track" role="img" aria-label="COP 본딩 X·Y축 허용 오차 ±3 ㎛"><span class="tol-band" style="--t:3"></span></span><span class="tol-val">±3 ㎛</span></div><div class="tol-row"><span class="tol-name">COF 본딩<small>X·Y축</small></span><span class="tol-track" role="img" aria-label="COF 본딩 X·Y축 허용 오차 ±4 ㎛"><span class="tol-band" style="--t:4"></span></span><span class="tol-val">±4 ㎛</span></div><div class="tol-row"><span class="tol-name">FOP 본딩<small>X·Y축</small></span><span class="tol-track" role="img" aria-label="FOP 본딩 X·Y축 허용 오차 ±10 ㎛"><span class="tol-band" style="--t:10"></span></span><span class="tol-val">±10 ㎛</span></div><div class="tol-row"><span class="tol-name">FOF 본딩<small>X·Y축</small></span><span class="tol-track" role="img" aria-label="FOF 본딩 X·Y축 허용 오차 ±15 ㎛"><span class="tol-band" style="--t:15"></span></span><span class="tol-val">±15 ㎛</span></div><div class="tol-row"><span class="tol-name">커팅<small>COF·COP 설비</small></span><span class="tol-track" role="img" aria-label="커팅 COF·COP 설비 허용 오차 ±50 ㎛"><span class="tol-band" style="--t:50"></span></span><span class="tol-val">±50 ㎛</span></div><div class="tol-row"><span class="tol-name">ACF 부착<small>Y축</small></span><span class="tol-track" role="img" aria-label="ACF 부착 Y축 허용 오차 ±0.08 mm"><span class="tol-band" style="--t:80"></span></span><span class="tol-val">±0.08 mm</span></div><div class="tol-row"><span class="tol-name">ACF 부착<small>X축</small></span><span class="tol-track" role="img" aria-label="ACF 부착 X축 허용 오차 ±0.1 mm"><span class="tol-band" style="--t:100"></span></span><span class="tol-val">±0.1 mm</span></div></div>
+          <div class="tol-axis" aria-hidden="true">
+            <span></span>
+            <ol><li style="left:0">−100</li><li style="left:25%">−50</li><li style="left:50%">0</li><li style="left:75%">+50</li><li style="left:100%">+100</li></ol>
+            <span class="unit">㎛</span>
+          </div>
+          <figcaption class="tol-note" id="tol-cap">X·Y 위치 정밀도, 3σ 기준 · 비전 얼라인 후 열압착 본딩</figcaption>
+        </figure>
+        <div class="tact">
+          <h3>TACT TIME</h3>
+          <dl>
+            <div><dt>COF·COP 본딩<small>1 COF 기준</small></dt><dd>15<small>초</small></dd></div>
+            <div><dt>COF·COP 본딩<small>2 COF 기준</small></dt><dd>22<small>초</small></dd></div>
+            <div><dt>COF·COP 본딩<small>6 COF 기준</small></dt><dd>62<small>초</small></dd></div>
+            <div><dt>FOP 본딩<small>1 FPC 기준</small></dt><dd>18<small>초</small></dd></div>
+            <div><dt>FOF 본딩<small>1 FPC 기준</small></dt><dd>20<small>초</small></dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="process" aria-labelledby="process-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">ONE-STOP PROCESS</p>
+        <h2 id="process-h">기획부터 양산 안정화까지</h2>
+        <p class="sec-lead">초기 기술 검토부터 성능 검증과 양산 안정화까지 고객과 긴밀하게 협력합니다. 설계·제어·제조 인력이 사내에 있어 단계가 끊기지 않습니다.</p>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="no">STEP 01</span><h3>기술 검토 · 설비 기획</h3><p>생산 환경과 공정 특성을 분석해 설비 사양과 레이아웃을 정합니다.</p></li>
+        <li class="step"><span class="no">STEP 02</span><h3>정밀 설계</h3><p>기구 설계와 전장·PLC 설계를 사내에서 수행합니다.</p></li>
+        <li class="step"><span class="no">STEP 03</span><h3>제작 · 조립</h3><p>천안 공장에서 설비를 제작하고 조립·배선합니다.</p></li>
+        <li class="step"><span class="no">STEP 04</span><h3>설치 · 시운전</h3><p>고객 현장에 설비를 설치하고 시운전합니다.</p></li>
+        <li class="step"><span class="no">STEP 05</span><h3>성능 검증</h3><p>사양, 택트 타임, 정밀도를 고객과 함께 확인합니다.</p></li>
+        <li class="step"><span class="no">STEP 06</span><h3>양산 안정화</h3><p>양산 초기 현장 이슈에 대응해 설비를 안정화합니다.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band band-sheet" id="projects" aria-labelledby="projects-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">PROJECT REFERENCES</p>
+        <h2 id="projects-h">주요 수행 실적</h2>
+        <p class="sec-lead">2차전지와 전기차 부품 조립라인을 중심으로 설계, 제작, 셋업을 수행했습니다.</p>
+      </div>
+      <table class="ref">
+        <thead><tr><th scope="col">분야</th><th scope="col">프로젝트</th><th scope="col" class="qty">수량</th><th scope="col">수행 범위</th></tr></thead>
+        <tbody>
+          <tr><td>2차전지</td><td>배터리 모듈 조립라인</td><td class="qty">16</td><td><span class="scope"><span>설계</span><span>제작</span><span>셋업</span></span></td></tr>
+          <tr><td>ESS</td><td>배터리 패킹 라인</td><td class="qty">1</td><td><span class="scope"><span>설계</span><span>제작</span><span>셋업</span></span></td></tr>
+          <tr><td>전기차</td><td>전동화 부품(PE) 조립라인</td><td class="qty">1</td><td><span class="scope"><span>설계</span><span>제작</span><span>셋업 (개조)</span></span></td></tr>
+          <tr><td>전기차</td><td>BEV 부품 조립라인</td><td class="qty">1</td><td><span class="scope"><span>설계</span><span>제작</span><span>셋업</span></span></td></tr>
+          <tr><td>물류</td><td>제품 적재 물류 AGV</td><td class="qty">—</td><td><span class="scope"><span>제작 참여</span></span></td></tr>
+        </tbody>
+      </table>
+      <p class="note">고객사명은 표기하지 않습니다.</p>
+      <figure class="layout">
+        <div class="scroll well"><img src="assets/img/bma-layout.webp" alt="BMA/BSA 조립라인 평면 레이아웃 도면" width="1628" height="359" loading="lazy" decoding="async"></div>
+        <figcaption><span>BMA/BSA 조립라인 레이아웃</span><span>평면도</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band" id="facility" aria-labelledby="facility-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">FACILITIES</p>
+        <h2 id="facility-h">천안 본사·공장</h2>
+        <p class="sec-lead">충남 천안시 서북구 입장면에 공장 2개 동, 약 400평을 두고 설비를 직접 제작·조립합니다.</p>
+      </div>
+      <dl class="fac-stats">
+        <div><dt>부지 면적</dt><dd>1,070<small>평</small><span>약 3,537 ㎡</span></dd></div>
+        <div><dt>공장 A동</dt><dd>280<small>평</small><span>약 926 ㎡</span></dd></div>
+        <div><dt>공장 B동</dt><dd>120<small>평</small><span>약 397 ㎡</span></dd></div>
+      </dl>
+      <div class="fac-photos">
+        <figure>
+          <div class="ph" style="aspect-ratio:922/388"><img src="assets/img/site-b.webp" alt="공장 A동 건물 외관" width="922" height="388" loading="lazy" decoding="async"></div>
+          <figcaption><b>A동</b>공장 · 약 280평</figcaption>
+        </figure>
+        <figure>
+          <div class="ph" style="aspect-ratio:518/319"><img src="assets/img/site-a.webp" alt="공장 B동 건물 외관" width="518" height="319" loading="lazy" decoding="async"></div>
+          <figcaption><b>B동</b>공장 · 약 120평</figcaption>
+        </figure>
+      </div>
+      <div class="addr">
+        <p id="addr-txt">충남 천안시 서북구 입장면 도림길 26-24<small>본사 · 공장</small></p>
+        <div class="links">
+          <a class="lk" href="https://map.naver.com/p/search/%EC%B6%A9%EB%82%A8%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%9E%85%EC%9E%A5%EB%A9%B4%20%EB%8F%84%EB%A6%BC%EA%B8%B8%2026-24" target="_blank" rel="noopener noreferrer">네이버 지도</a>
+          <a class="lk" href="https://map.kakao.com/?q=%EC%B6%A9%EB%82%A8%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%9E%85%EC%9E%A5%EB%A9%B4%20%EB%8F%84%EB%A6%BC%EA%B8%B8%2026-24" target="_blank" rel="noopener noreferrer">카카오맵</a>
+          <button type="button" class="lk" data-copy="충남 천안시 서북구 입장면 도림길 26-24" data-target="addr-txt">주소 복사</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-sheet contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap contact-grid">
+      <div class="contact-main">
+        <p class="eyebrow">CONTACT</p>
+        <h2 id="contact-h">견적·기술 문의</h2>
+        <p class="sec-lead">제품 도면과 사양을 보내주시면 검토 후 회신드립니다.</p>
+        <dl class="reach">
+          <div><dt>대표전화</dt><dd><a class="big" id="c-tel" href="tel:07075075112">070-7507-5112</a><button type="button" class="lk" data-copy="070-7507-5112" data-target="c-tel">복사</button></dd></div>
+          <div><dt>이메일</dt><dd><a class="big" id="c-email" href="mailto:ceo@mechaintelli.com">ceo@mechaintelli.com</a><button type="button" class="lk" data-copy="ceo@mechaintelli.com" data-target="c-email">복사</button></dd></div>
+          <div><dt>주소</dt><dd><span id="addr-2">충남 천안시 서북구 입장면 도림길 26-24</span><button type="button" class="lk" data-copy="충남 천안시 서북구 입장면 도림길 26-24" data-target="addr-2">복사</button></dd></div>
+          <div><dt>웹사이트</dt><dd><span class="big">mechaintelli.com</span></dd></div>
+        </dl>
+      </div>
+      <div class="checklist">
+        <h3>견적 요청 때 함께 보내주시면 좋은 자료</h3>
+        <ul>
+          <li><div>제품 도면과 사양서<small>2D·3D 파일 (DWG, STEP)</small></div></li>
+          <li><div>목표 택트 타임과 생산량</div></li>
+          <li><div>물류 방향·높이와 설치 공간 레이아웃</div></li>
+          <li><div>유틸리티 조건<small>전원, 공압, 진공, 배기</small></div></li>
+          <li><div>구매품 메이커 지정 여부<small>PLC, 서보모터, 비전, 로봇 등</small></div></li>
+          <li><div>견적 범위<small>설계 · 제작 · 셋업, 신규 또는 개조</small></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <div class="ftr-brand">
+        <img src="assets/logo-mark.png" alt="MECHA INTELLI" width="413" height="144" loading="lazy">
+        <p>자동화 Total Solution Partner</p>
+      </div>
+      <nav class="ftr-nav" aria-label="하단 메뉴">
+        <a href="#about">회사소개</a><a href="#lineup">설비 라인업</a><a href="#precision">기술역량</a><a href="#projects">수행실적</a><a href="#facility">사업장</a><a href="#contact">견적 문의</a>
+      </nav>
+    </div>
+    <p class="ftr-slogan">기술로 완성하는 자동화, 신뢰로 이어가는 미래.</p>
+    <p class="ftr-info"><span>㈜메카인텔리</span><span>대표이사 이종명</span><span>충남 천안시 서북구 입장면 도림길 26-24</span><span>TEL 070-7507-5112</span><span>E-mail ceo@mechaintelli.com</span><span>mechaintelli.com</span></p>
+    <p class="copy">© 2026 MECHA INTELLI. All rights reserved.</p>
+  </div>
+</footer>
+
+<dialog class="dlg" id="dlg" aria-labelledby="dlg-title">
+  <button type="button" class="dlg-x" id="dlg-x" aria-label="닫기"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+  <div class="dlg-in">
+    <div class="dlg-media">
+      <div class="dlg-main well" id="dlg-main"><img id="dlg-img" src="data:," alt=""></div>
+      <p class="dlg-cap" id="dlg-cap"></p>
+      <div class="thumbs" id="dlg-thumbs" role="group" aria-label="이미지 선택"></div>
+    </div>
+    <div class="dlg-body">
+      <p class="eq-en" id="dlg-en"></p>
+      <h3 id="dlg-title"></h3>
+      <p class="eq-desc" id="dlg-desc"></p>
+      <div>
+        <div class="spec-head"><span class="cap">MAIN SPEC</span><span class="cap" id="dlg-cat"></span></div>
+        <dl class="spec" id="dlg-spec"></dl>
+      </div>
+      <figure class="plan" id="dlg-plan" hidden>
+        <svg id="dlg-plan-svg" role="img" aria-labelledby="dlg-plan-cap"></svg>
+        <figcaption><span id="dlg-plan-cap"></span><span>1칸 = 1 m · 10 m 폭 기준</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</dialog>
+<script type="application/json" id="eq-data">{"roll-lamination":{"en":"ROLL LAMINATION SYSTEM","ko":"롤 라미네이션","desc":"폴더블 스마트폰의 메탈 내장 힌지와 공정용 필름을 비전 얼라인한 뒤 롤러로 합착합니다.","cat":"DISPLAY SOLUTIONS","spec":[["물류 방향 (높이)","좌 → 우 (1,200 ±50 mm)"],["자재 SIZE","Min 50 × 85 ~ Max 250 × 250 mm"],["설비 SIZE","L 3,500 × W 2,400 × H 2,000 mm"],["COVER","제관 + PROFILE + 아크릴"]],"images":[{"src":"assets/img/roll-lamination.webp","alt":"롤 라미네이션 시스템 3D 모델","kind":"render","w":426,"h":368}],"dims":[3500,2400,2000]},"utg-lamination":{"en":"UTG ROLL LAMINATION SYSTEM","ko":"UTG 롤 라미네이션","desc":"폴더블 스마트폰용 UTG(Ultra Thin Glass)에 OCA(Optical Clear Adhesive)를 비전 얼라인해 양면으로 롤러 합착합니다.","cat":"DISPLAY SOLUTIONS","spec":[["물류 방향 (높이)","좌 → 우 (1,200 ±50 mm)"],["자재 SIZE","Min 50 × 85 ~ Max 250 × 250 mm"],["설비 SIZE","L 8,500 × W 2,400 × H 2,200 mm"],["COVER","제관 + PROFILE + 아크릴"]],"images":[{"src":"assets/img/utg-lamination.webp","alt":"UTG 롤 라미네이션 시스템 3D 모델","kind":"render","w":570,"h":554}],"dims":[8500,2400,2200]},"fpcb-bending":{"en":"FPCB BENDING SYSTEM","ko":"FPCB 벤딩","desc":"디스플레이 패널에 연결된 COF·FPC·FPCB를 조립하기 쉽게 벤딩해 패널에 부착합니다.","cat":"DISPLAY SOLUTIONS","spec":[["물류 방향 (높이)","좌 → 우 (1,100 ±50 mm)"],["자재 SIZE","Min 50 × 85 ~ Max 250 × 250 mm"],["설비 SIZE","L 9,500 × W 2,400 × H 2,100 mm"],["COVER","제관 + PROFILE + 아크릴"]],"images":[{"src":"assets/img/fpcb-bending.webp","alt":"FPCB 벤딩 시스템 3D 모델","kind":"render","w":1156,"h":722}],"dims":[9500,2400,2100]},"cof-cop":{"en":"COF / COP BONDING SYSTEM","ko":"COF·COP 본딩","desc":"3\"~15.6\" 패널에 ACF를 부착하고 COF 또는 칩을 비전 얼라인해 열압착 본딩합니다.","cat":"DISPLAY SOLUTIONS","spec":[["대상","3\" ~ 15.6\" 패널"],["물류 방향 (높이)","좌 → 우 (1,050 ±50 mm)"],["제품","PANEL / COF (TAB·IC) / IC"],["TACT TIME",["15 s (1 COF)","22 s (2 COF)","62 s (6 COF)"]],["정밀도 (3σ)",["ACF X ±0.1 mm · Y ±0.08 mm","COF X·Y ±4 ㎛","COP X·Y ±3 ㎛","CUTTING ±50 ㎛"]],["설비 SIZE","L 3,000 × W 2,200 × H 1,800 mm"],["COVER","제관 + PROFILE + 아크릴"]],"images":[{"src":"assets/img/cof-cop.webp","alt":"COF·COP 본딩 시스템 3D 모델","kind":"render","w":658,"h":693}],"dims":[3000,2200,1800]},"fof-fop":{"en":"FOF / FOP BONDING SYSTEM","ko":"FOF·FOP 본딩","desc":"3\"~15.6\" 패널에 ACF를 부착하고 FPC를 비전 얼라인해 열압착 본딩합니다.","cat":"DISPLAY SOLUTIONS","spec":[["대상","3\" ~ 15.6\" 패널"],["물류 방향 (높이)","좌 → 우 (1,050 ±50 mm)"],["제품","PANEL + COF (TAB·IC) / PANEL / FPC"],["TACT TIME",["FOF 20 s (1 FPC)","FOP 18 s (1 FPC)"]],["정밀도 (3σ)",["ACF X ±0.1 mm · Y ±0.08 mm","FOF X·Y ±15 ㎛","FOP X·Y ±10 ㎛"]],["설비 SIZE","L 3,500 × W 1,250 × H 1,800 mm"],["COVER","제관 + PROFILE + 아크릴"]],"images":[{"src":"assets/img/fof-fop.webp","alt":"FOF·FOP 본딩 시스템 3D 모델","kind":"render","w":805,"h":709}],"dims":[3500,1250,1800]},"inline":{"en":"DISPLAY IN-LINE SYSTEM","ko":"디스플레이 인라인 본딩 라인","desc":"로더부터 플라즈마, ACF 본더, 가압착·본압착, FPC 본딩, 디스펜서, 언로더까지 13개 모듈을 한 라인으로 연결합니다.","cat":"DISPLAY SOLUTIONS","spec":[["COF / COG",["LOADER · PLASMA · ACF BONDER","COF PRESS · PRE BONDER · MAIN BONDER"]],["FOF / FOG",["ACF BONDER · FPC LOADER · MAIN BONDER","반전기 · ART · DISPENSER · UNLOADER"]]],"images":[{"src":"assets/img/inline-system.webp","alt":"디스플레이 인라인 본딩 라인 3D 모델","kind":"render","w":1142,"h":794}],"dims":null},"loader":{"en":"LOADER / UNLOADER SYSTEM","ko":"로더·언로더","desc":"트레이 단분리·회전, 제품 핸들러, 다이버터, 컨베이어로 공정 설비의 자재 투입과 배출을 자동화합니다.","cat":"DISPLAY SOLUTIONS","spec":[["구성",["TRAY 단분리 / 회전","제품 HANDLER","DIVERTER","CONVEYOR"]],["적용","디스플레이 공정 설비 자재 투입·배출"]],"images":[{"src":"assets/img/loader-render.webp","alt":"로더·언로더 3D 모델 (컨베이어, 다이버터, 핸들러, 트레이 단분리·회전)","kind":"render","w":784,"h":711},{"src":"assets/img/loader-cell.webp","alt":"로더·언로더 셀 3D 모델","kind":"render","w":865,"h":714},{"src":"assets/img/loader-frame.webp","alt":"로더·언로더 프레임 3D 모델","kind":"render","w":526,"h":353},{"src":"assets/img/loader-photo-1.webp","alt":"제작 완료한 로더·언로더 설비","kind":"photo","w":478,"h":328},{"src":"assets/img/loader-photo-2.webp","alt":"로더·언로더 설비 측면","kind":"photo","w":395,"h":306},{"src":"assets/img/loader-photo-3.webp","alt":"로더·언로더 설비 설치 모습","kind":"photo","w":377,"h":319}],"dims":null},"forming":{"en":"FORMING · FILLING · DEGAS · SEALING","ko":"단동 포밍·주액·디개싱·실링","desc":"2차전지 셀 공정의 파우치 포밍, 전해액 주액, 디개싱, 실링을 단동(Stand-alone) 설비로 구성합니다.","cat":"BATTERY SOLUTIONS","spec":[["공정",["FORMING (파우치 포밍)","FILLING (전해액 주액)","DEGAS (디개싱)","SEALING (실링)"]],["형태","단동 (Stand-alone)"]],"images":[{"src":"assets/img/forming-1.webp","alt":"단동 설비 3D 모델 1","kind":"render","w":624,"h":657},{"src":"assets/img/forming-2.webp","alt":"단동 설비 3D 모델 2","kind":"render","w":650,"h":680},{"src":"assets/img/forming-3.webp","alt":"단동 설비 3D 모델 3","kind":"render","w":747,"h":696},{"src":"assets/img/forming-4.webp","alt":"단동 설비 3D 모델 4","kind":"render","w":674,"h":628}],"dims":null},"inline-filling":{"en":"IN-LINE FILLING · SEALING","ko":"인라인 주액·실링","desc":"전해액 주액과 실링 공정을 하나의 인라인 설비로 연결해 연속 생산에 대응합니다.","cat":"BATTERY SOLUTIONS","spec":[["공정",["FILLING (전해액 주액)","SEALING (실링)"]],["형태","인라인"]],"images":[{"src":"assets/img/inline-filling-1.webp","alt":"인라인 주액·실링 설비 3D 모델 1","kind":"render","w":767,"h":595},{"src":"assets/img/inline-filling-2.webp","alt":"인라인 주액·실링 설비 3D 모델 2","kind":"render","w":908,"h":673}],"dims":null},"bma":{"en":"BMA / BSA ASSEMBLY LINE","ko":"BMA·BSA 조립라인","desc":"배터리 모듈(BMA)과 배터리 시스템(BSA) 조립라인을 설계·제작하고 현장 셋업까지 수행합니다.","cat":"BATTERY SOLUTIONS","spec":[["수행 실적",["배터리 모듈 조립라인 (16)","ESS 배터리 패킹 라인 (1)","전동화 부품(PE) 조립라인 · 개조 (1)","BEV 부품 조립라인 (1)"]],["수행 범위","설계 · 제작 · 셋업 (개조 포함)"]],"images":[{"src":"assets/img/bma-line.webp","alt":"BMA/BSA 조립라인 3D 모델","kind":"render","w":438,"h":246},{"src":"assets/img/bma-layout.webp","alt":"BMA/BSA 조립라인 평면 레이아웃","kind":"drawing","w":1628,"h":359}],"dims":null},"ic-tray":{"en":"IC TRAY AUTO PACKING SYSTEM","ko":"IC 트레이 자동 포장","desc":"Final Test를 마친 IC 트레이에 습도 인디케이터와 실리카겔을 자동 공급하고, PP 밴딩 후 알루미늄 방습백에 넣어 진공 실링합니다.","cat":"SEMICONDUCTOR SOLUTIONS","spec":[["물류 방향 (높이)","좌 → 우 (1,000 ±50 mm)"],["제품","JEDEC IC TRAY 322.6 × 135.9 × 12.19 mm"],["포장 단위","11단 (Cover Tray 포함)"],["설비 SIZE","L 10,000 × W 2,400 × H 1,900 mm"],["COVER","PROFILE + 아크릴"]],"images":[{"src":"assets/img/ic-photo.webp","alt":"IC 트레이 자동 포장 설비 외관","kind":"photo","w":1019,"h":370},{"src":"assets/img/ic-layout.webp","alt":"IC 트레이 자동 포장 설비 평면 배치","kind":"drawing","w":1048,"h":303}],"dims":[10000,2400,1900]},"auto":{"en":"AUTOMOTIVE ASSEMBLY","ko":"자동차 부품 정밀 조립","desc":"자동차 컴프레셔 조립 설비, PCB 조립기, 볼트 체결기, 커넥터 체결기 등 부품 조립 자동화 설비를 제작합니다.","cat":"AUTOMOTIVE SOLUTIONS","spec":[["설비",["자동차 컴프레셔 조립 설비","PCB 조립기","BOLT 체결기","CONNECTOR 체결기"]]],"images":[{"src":"assets/img/auto-compressor.webp","alt":"자동차 컴프레셔 조립 설비","kind":"photo","w":536,"h":397},{"src":"assets/img/auto-pcb.webp","alt":"PCB 조립기","kind":"photo","w":531,"h":282},{"src":"assets/img/auto-bolt.webp","alt":"BOLT 체결기","kind":"photo","w":277,"h":305},{"src":"assets/img/auto-connector.webp","alt":"CONNECTOR 체결기","kind":"photo","w":272,"h":333}],"dims":null},"laser":{"en":"LASER MARKING SYSTEM","ko":"레이저 마킹","desc":"컨베이어로 투입된 PCB의 상면과 배면에 바코드와 문자를 레이저로 마킹한 뒤 배출합니다.","cat":"PRECISION AUTOMATION","spec":[["대상","3\" ~ 16\""],["물류 방향 (높이)","좌 → 우 (900 ±50 mm)"],["제품",["PCB 50 × 50 ~ 250 × 250 mm","Dual 공급 Type","Top & Bottom Marking"]],["설비 SIZE","L 1,400 × W 2,400 × H 1,900 mm"],["COVER","PROFILE + 아크릴"]],"images":[{"src":"assets/img/laser-marking.webp","alt":"레이저 마킹 시스템 3D 모델","kind":"render","w":673,"h":776}],"dims":[1400,2400,1900]},"agv":{"en":"PRODUCT LOADING AGV","ko":"제품 적재 AGV","desc":"랙에 제품을 자동으로 적재하는 물류 AGV 제작에 참여했습니다.","cat":"LOGISTICS AUTOMATION","spec":[["용도","랙 제품 자동 적재"],["수행","제품 적재 물류 AGV 제작 참여"]],"images":[{"src":"assets/img/agv.webp","alt":"제품 적재 AGV 3D 모델","kind":"render","w":311,"h":395},{"src":"assets/img/agv-rack.webp","alt":"AGV가 랙에 제품을 적재하는 순서","kind":"drawing","w":909,"h":302}],"dims":null},"xray":{"en":"2D X-RAY INSPECTION SYSTEM","ko":"2D X-RAY 검사기","desc":"2D X-RAY 투과 영상으로 제품 내부를 검사하는 설비입니다.","cat":"INSPECTION SOLUTIONS","spec":[["검사 방식","2D X-RAY"],["형태","단독형 캐비닛"]],"images":[{"src":"assets/img/xray.webp","alt":"2D X-RAY 검사기 3D 모델","kind":"render","w":833,"h":769}],"dims":null}}</script>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
+  const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- mobile menu ---------- */
+  const menuBtn = $('#menu-btn');
+  const mnav = $('#mnav');
+  const menuLabel = $('#menu-label');
+  if (menuBtn && mnav) {
+    const setOpen = (open) => {
+      mnav.hidden = !open;
+      menuBtn.setAttribute('aria-expanded', String(open));
+      menuLabel.textContent = open ? '닫기' : '메뉴';
+    };
+    menuBtn.addEventListener('click', () => setOpen(mnav.hidden));
+    mnav.addEventListener('click', (e) => { if (e.target.closest('a')) setOpen(false); });
+  }
+
+  /* ---------- hero: drawing balloons <-> parts list ---------- */
+  const marks = $$('[data-k]');
+  let touched = false;
+  const light = (k) => marks.forEach((el) => el.classList.toggle('on', k !== null && el.dataset.k === k));
+  marks.forEach((el) => {
+    if (el.tagName === 'line') return;
+    el.addEventListener('pointerenter', () => { touched = true; light(el.dataset.k); });
+    el.addEventListener('pointerleave', () => light(null));
+    el.addEventListener('focus', () => { touched = true; light(el.dataset.k); });
+    el.addEventListener('blur', () => light(null));
+  });
+  /* one start-up pass along the line: each module lights in turn, then the line rests */
+  const stage = $('#stage');
+  if (!reduced && stage) {
+    const order = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
+    let i = 0;
+    const step = () => {
+      if (touched) return;
+      if (i < order.length) { light(order[i++]); setTimeout(step, 240); }
+      else setTimeout(() => { if (!touched) light(null); }, 500);
+    };
+    setTimeout(step, 900);
+  }
+
+  /* ---------- line-up filter ---------- */
+  const chips = $$('.chip[data-f]');
+  const cards = $$('.eq');
+  const result = $('#result');
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    const f = chip.dataset.f;
+    chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+    let n = 0;
+    cards.forEach((card) => {
+      const show = f === 'all' || card.dataset.cat === f;
+      card.hidden = !show;
+      if (show) n++;
+    });
+    if (result) result.textContent = n + '개 설비';
+  }));
+
+  /* ---------- spec dialog ---------- */
+  const dataEl = $('#eq-data');
+  const dlg = $('#dlg');
+  let DATA = {};
+  try { DATA = JSON.parse(dataEl ? dataEl.textContent : '{}'); } catch (e) { DATA = {}; }
+  const el = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const fmt = (n) => n.toLocaleString('en-US');
+
+  function planSVG(L, W) {
+    /* one scale for every machine: 10 m of floor = 400 units, grid 1 m */
+    const s = 0.04, ox = 68, oy = 8;
+    const fw = 10000 * s, fh = 2500 * s;
+    const mw = L * s, mh = W * s;
+    let g = '';
+    g += `<rect class="pl-floor" x="${ox}" y="${oy}" width="${fw}" height="${fh}"/>`;
+    for (let x = 1; x < 10; x++) g += `<line class="pl-grid" x1="${ox + x * 40}" y1="${oy}" x2="${ox + x * 40}" y2="${oy + fh}"/>`;
+    for (let y = 1; y < 2.5; y++) g += `<line class="pl-grid" x1="${ox}" y1="${oy + y * 40}" x2="${ox + fw}" y2="${oy + y * 40}"/>`;
+    g += `<rect class="pl-m" x="${ox}" y="${oy}" width="${mw}" height="${mh}"/>`;
+    /* flow arrow (left to right) inside the machine */
+    const ay = oy + mh / 2, ax0 = ox + Math.min(10, mw * 0.15), ax1 = ox + mw - Math.min(10, mw * 0.15);
+    if (mw > 40) {
+      g += `<path class="pl-flow" d="M${ax0} ${ay}H${ax1}M${ax1 - 6} ${ay - 4}L${ax1} ${ay}L${ax1 - 6} ${ay + 4}"/>`;
+      if (mw > 90) g += `<text class="pl-ft" x="${ax0}" y="${ay - 6}">물류</text>`;
+    }
+    /* L dimension under the floor, W dimension at the machine's right edge */
+    const dy = oy + fh + 16;
+    g += `<path class="pl-dim" d="M${ox} ${oy + fh + 4}V${dy + 4}M${ox + mw} ${oy + mh + 4}V${dy + 4}M${ox} ${dy}H${ox + mw}M${ox + 4} ${dy - 3}L${ox} ${dy}L${ox + 4} ${dy + 3}M${ox + mw - 4} ${dy - 3}L${ox + mw} ${dy}L${ox + mw - 4} ${dy + 3}"/>`;
+    g += `<text class="pl-t" x="${ox + mw / 2}" y="${dy + 14}" text-anchor="middle">L ${fmt(L)}</text>`;
+    /* W dimension on the left, outside the floor, so it never sits on the grid */
+    const dx = ox - 10;
+    g += `<path class="pl-dim" d="M${ox - 3} ${oy}H${dx - 4}M${ox - 3} ${oy + mh}H${dx - 4}M${dx} ${oy}V${oy + mh}M${dx - 3} ${oy + 4}L${dx} ${oy}L${dx + 3} ${oy + 4}M${dx - 3} ${oy + mh - 4}L${dx} ${oy + mh}L${dx + 3} ${oy + mh - 4}"/>`;
+    g += `<text class="pl-t" x="${dx - 6}" y="${oy + mh / 2 + 4}" text-anchor="end">W ${fmt(W)}</text>`;
+    return { g, vb: `0 0 ${ox + fw + 8} ${dy + 22}` };
+  }
+
+  let current = null;
+  function show(i) {
+    const d = DATA[current];
+    if (!d) return;
+    const im = d.images[i];
+    const main = el('dlg-main');
+    const img = el('dlg-img');
+    main.className = 'dlg-main well ' + (im.kind || 'render');
+    img.src = im.src;
+    img.alt = im.alt;
+    img.width = im.w; img.height = im.h;
+    el('dlg-cap').textContent = im.alt;
+    $$('#dlg-thumbs button').forEach((b, j) => b.setAttribute('aria-current', String(j === i)));
+  }
+  function openSpec(id) {
+    const d = DATA[id];
+    if (!d || !dlg) return;
+    current = id;
+    el('dlg-en').textContent = d.en;
+    el('dlg-title').textContent = d.ko;
+    el('dlg-desc').textContent = d.desc;
+    el('dlg-cat').textContent = d.cat;
+    el('dlg-spec').innerHTML = d.spec.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${(Array.isArray(v) ? v : [v]).map((x) => `<span>${esc(x)}</span>`).join('')}</dd></div>`).join('');
+    const th = el('dlg-thumbs');
+    th.innerHTML = d.images.length > 1 ? d.images.map((im, j) => `<button type="button" class="well ${im.kind || 'render'}" data-i="${j}" aria-label="${esc(im.alt)}"><img src="${esc(im.src)}" alt="" loading="lazy"></button>`).join('') : '';
+    th.hidden = d.images.length < 2;
+    const plan = el('dlg-plan');
+    if (d.dims) {
+      const p = planSVG(d.dims[0], d.dims[1]);
+      const svg = el('dlg-plan-svg');
+      svg.setAttribute('viewBox', p.vb);
+      svg.innerHTML = p.g;
+      el('dlg-plan-cap').textContent = `평면도 · L ${fmt(d.dims[0])} × W ${fmt(d.dims[1])} × H ${fmt(d.dims[2])} mm`;
+      plan.hidden = false;
+    } else {
+      plan.hidden = true;
+    }
+    show(0);
+    if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+    const scroller = $('.dlg-in', dlg); if (scroller) scroller.scrollTop = 0;
+    const body = $('.dlg-body', dlg); if (body) body.scrollTop = 0;
+  }
+  $$('[data-open]').forEach((b) => b.addEventListener('click', () => openSpec(b.dataset.open)));
+  if (dlg) {
+    el('dlg-thumbs').addEventListener('click', (e) => {
+      const b = e.target.closest('button[data-i]');
+      if (b) show(Number(b.dataset.i));
+    });
+    el('dlg-x').addEventListener('click', () => dlg.close());
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  }
+
+  /* ---------- copy buttons: clipboard first, text selection as fallback ---------- */
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-copy]');
+    if (!btn) return;
+    if (!btn.dataset.label) btn.dataset.label = btn.textContent;
+    const flash = (msg) => {
+      btn.textContent = msg;
+      btn.classList.add('done');
+      clearTimeout(btn._t);
+      btn._t = setTimeout(() => { btn.textContent = btn.dataset.label; btn.classList.remove('done'); }, 1800);
+    };
+    const selectText = () => {
+      const t = document.getElementById(btn.dataset.target);
+      if (!t) { flash('직접 복사해 주세요'); return; }
+      const r = document.createRange();
+      r.selectNodeContents(t);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(r);
+      flash('선택됨');
+    };
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(btn.dataset.copy).then(() => flash('복사됨'), selectText);
+      else selectText();
+    } catch (err) { selectText(); }
+  });
+})();
+</script>
+</body>
+</html>
